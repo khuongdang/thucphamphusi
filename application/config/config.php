@@ -24,7 +24,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
   | a PHP script and you can easily do that on your own.
   |
  */
-$config['base_url'] = 'http://phusi1.local/';
+$config['base_url'] = 'http://thucphamphusi.local/';
 
 /*
   |--------------------------------------------------------------------------

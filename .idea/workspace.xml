@@ -1,7 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a656caa4-33c3-4582-9da1-e9e08649226c" name="Default Changelist" comment="" />
+    <list default="true" id="a656caa4-33c3-4582-9da1-e9e08649226c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/application/views/templates/clothesshop_old/_parts/footer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/views/templates/clothesshop_old/_parts/header.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/views/templates/clothesshop_old/assets/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/views/templates/clothesshop_old/assets/css/custom.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/views/templates/clothesshop_old/assets/css/default-gradient.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/views/templates/clothesshop_old/assets/imgs/arrows-2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/views/templates/clothesshop_old/assets/imgs/paypal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/views/templates/clothesshop_old/assets/imgs/screenshot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/views/templates/clothesshop_old/assets/imgs/white-bag.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/views/templates/clothesshop_old/assets/imgs/white-bag.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/views/templates/clothesshop_old/assets/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/views/templates/clothesshop_old/assets/js/mine.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/views/templates/clothesshop_old/blog.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/views/templates/clothesshop_old/bodyFooter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/views/templates/clothesshop_old/checkout.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/views/templates/clothesshop_old/checkout_parts/order_error.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/views/templates/clothesshop_old/checkout_parts/payment_success_bank.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/views/templates/clothesshop_old/checkout_parts/payment_success_cash.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/views/templates/clothesshop_old/checkout_parts/paypal_cancel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/views/templates/clothesshop_old/checkout_parts/paypal_payment.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/views/templates/clothesshop_old/checkout_parts/paypal_success.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/views/templates/clothesshop_old/confirmed.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/views/templates/clothesshop_old/contacts.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/views/templates/clothesshop_old/dynPage.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/views/templates/clothesshop_old/home.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/views/templates/clothesshop_old/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/views/templates/clothesshop_old/shopping_cart.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/views/templates/clothesshop_old/vendor.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/views/templates/clothesshop_old/view_blog_post.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/views/templates/clothesshop_old/view_product.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/views/templates/clothesshop_old/view_product_vendor.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/config/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/config/config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/templates/clothesshop/_parts/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/templates/clothesshop/_parts/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/templates/clothesshop/_parts/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/templates/clothesshop/_parts/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/templates/clothesshop/assets/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/templates/clothesshop/assets/css/custom.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/templates/clothesshop/assets/css/default-gradient.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/templates/clothesshop/assets/imgs/arrows-2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/templates/clothesshop/assets/imgs/paypal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/templates/clothesshop/assets/imgs/screenshot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/templates/clothesshop/assets/imgs/white-bag.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/templates/clothesshop/assets/imgs/white-bag.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/templates/clothesshop/assets/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/templates/clothesshop/assets/js/mine.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/templates/clothesshop/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/templates/clothesshop/home.php" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,14 +60,198 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.closed" value="1" />
-          <entry key="project.open.time.0" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.0" value="2" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="css" value="2" />
+          <entry key="htaccess" value="2" />
+          <entry key="html" value="4" />
+          <entry key="md" value="3" />
+          <entry key="php" value="32" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CSS" value="2" />
+          <entry key="HTML" value="4" />
+          <entry key="Markdown" value="3" />
+          <entry key="PHP" value="32" />
+          <entry key="htaccess" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="css" value="18" />
+          <entry key="htaccess" value="23" />
+          <entry key="php" value="246" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CSS" value="18" />
+          <entry key="PHP" value="246" />
+          <entry key="htaccess" value="23" />
         </counts>
       </usages-collector>
     </session>
   </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/templates/clothesshop/home.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="310">
+              <caret line="595" column="27" selection-start-line="595" selection-start-column="27" selection-end-line="595" selection-end-column="27" />
+              <folding>
+                <element signature="n#div#5;n#body#0;n#!!top" />
+                <element signature="n#div#6;n#body#0;n#!!top" />
+                <element signature="n#div#7;n#body#0;n#!!top" />
+                <element signature="n#div#8;n#body#0;n#!!top" />
+                <element signature="n#div#16;n#body#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/templates/clothesshop/assets/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="298">
+              <caret line="3142" column="20" lean-forward="true" selection-start-line="3142" selection-start-column="20" selection-end-line="3142" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/templates/clothesshop/_parts/header.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="874">
+              <caret line="38" column="40" selection-start-line="38" selection-start-column="40" selection-end-line="38" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/config/routes.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="562">
+              <caret line="97" column="37" lean-forward="true" selection-start-line="97" selection-start-column="37" selection-end-line="97" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/controllers/Loader.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="312">
+              <caret line="96" column="47" selection-start-line="96" selection-start-column="47" selection-end-line="96" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/templates/clothesshop_old/_parts/header.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="227">
+              <caret line="14" column="82" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="82" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/templates/clothesshop_old/home.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Downloads/KENT/TEMPLATES_WEB/web 3/kitchen.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="781">
+              <caret line="67" selection-start-line="67" selection-end-line="1118" selection-end-column="7" />
+              <folding>
+                <element signature="n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/views/templates/clothesshop/_parts/footer.php">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>echo</find>
+      <find>cssloader</find>
+      <find>phusi1</find>
+      <find>route</find>
+      <find>phusi</find>
+      <find>subclass_prefix</find>
+      <find>js</find>
+      <find>Loader</find>
+      <find>loadlanguage</find>
+      <find>templatecss</find>
+      <find>temp</find>
+      <find>.js</find>
+      <find>shopping</find>
+      <find>login</find>
+      <find>wish</find>
+      <find>download.</find>
+      <find>images</find>
+      <find>image</find>
+      <find>images/</find>
+      <find>templateCssImage</find>
+      <find>&lt;?= base_url('template/imgs/</find>
+      <find>vide</find>
+      <find>bootr</find>
+      <find>font</find>
+      <find>mycar</find>
+      <find>account</find>
+      <find>20176</find>
+      <find>card</find>
+      <find>boot</find>
+      <find>admin</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>&lt;?= base_url('template/imgs/</replace>
+      <replace>template</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/application/config</dir>
+      <dir>$PROJECT_DIR$/application</dir>
+    </dirStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/application/views/templates/clothesshop/blog.php" />
+        <option value="$PROJECT_DIR$/application/modules/vendor/views/products.php" />
+        <option value="$PROJECT_DIR$/application/modules/vendor/views/home.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/application/.htaccess" />
+        <option value="$PROJECT_DIR$/application/config/config.php" />
+        <option value="$PROJECT_DIR$/application/controllers/Loader.php" />
+        <option value="$PROJECT_DIR$/application/views/templates/clothesshop/_parts/footer.php" />
+        <option value="$PROJECT_DIR$/application/config/routes.php" />
+        <option value="$PROJECT_DIR$/application/views/templates/clothesshop/home.php" />
+        <option value="$PROJECT_DIR$/application/views/templates/clothesshop/_parts/header.php" />
+        <option value="$PROJECT_DIR$/application/views/templates/clothesshop/assets/css/style.css" />
+      </list>
+    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -44,7 +275,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -52,10 +282,29 @@
               <item name="thucphamphusi" type="b2602c69:ProjectViewProjectNode" />
               <item name="thucphamphusi" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="thucphamphusi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="thucphamphusi" type="462c0819:PsiDirectoryNode" />
+              <item name="application" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="thucphamphusi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="thucphamphusi" type="462c0819:PsiDirectoryNode" />
+              <item name="application" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="thucphamphusi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="thucphamphusi" type="462c0819:PsiDirectoryNode" />
+              <item name="application" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -63,6 +312,14 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../imgs" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/application/views/templates" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -87,40 +344,306 @@
       <option name="presentableId" value="Default" />
       <updated>1536917940454</updated>
       <workItem from="1536917941673" duration="25000" />
+      <workItem from="1537166975656" duration="7486000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25000" />
+    <option name="totallyTimeSpent" value="7511000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1875" height="1057" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24986361" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25204584" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32953367" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25204584" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32953367" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/application/views/templates/clothesshop/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/templates/clothesshop/blog.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="26" column="53" selection-end-line="74" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/templates/clothesshop/dynPage.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/modules/vendor/views/products.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="24" column="28" selection-end-line="48" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="4" column="1029" lean-forward="true" selection-start-line="4" selection-start-column="1029" selection-end-line="4" selection-end-column="1029" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ISSUE_TEMPLATE.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/templates/greenlabel/_parts/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="18" column="32" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/templates/greenlabel/home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="21" column="48" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/cache/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/cache/.htaccess">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/modules/vendor/views/home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-323">
+          <caret line="8" column="40" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#2;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/logs/log-2018-09-14.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="58" selection-start-line="8" selection-start-column="58" selection-end-line="8" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/config/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="436">
+          <caret line="80" column="19" selection-start-line="80" selection-start-column="19" selection-end-line="80" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CODE_OF_CONDUCT.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-256" />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5061">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="217">
+            <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/helpers/url_helper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="499">
+          <caret line="86" column="18" selection-start-line="86" selection-start-column="18" selection-end-line="86" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/core/CodeIgniter.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="371" column="65" selection-start-line="371" selection-start-column="50" selection-end-line="371" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/config/constants.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-563">
+          <caret line="9" column="69" selection-start-line="9" selection-start-column="69" selection-end-line="9" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/third_party/MX/Modules.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="115" column="65" selection-start-line="115" selection-start-column="65" selection-end-line="115" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/config/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="38" column="36" selection-start-line="38" selection-start-column="36" selection-end-line="38" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/templates/clothesshop_old/_parts/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="20" column="59" selection-start-line="20" selection-start-column="59" selection-end-line="20" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/Loader.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="96" column="47" selection-start-line="96" selection-start-column="47" selection-end-line="96" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/KENT/TEMPLATES_WEB/web 3/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="752">
+          <caret line="67" selection-start-line="67" selection-end-line="1864" selection-end-column="7" />
+          <folding>
+            <element signature="n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/KENT/TEMPLATES_WEB/web 3/kitchen.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="781">
+          <caret line="67" selection-start-line="67" selection-end-line="1118" selection-end-column="7" />
+          <folding>
+            <element signature="n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/templates/clothesshop/home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="595" column="27" selection-start-line="595" selection-start-column="27" selection-end-line="595" selection-end-column="27" />
+          <folding>
+            <element signature="n#div#5;n#body#0;n#!!top" />
+            <element signature="n#div#6;n#body#0;n#!!top" />
+            <element signature="n#div#7;n#body#0;n#!!top" />
+            <element signature="n#div#8;n#body#0;n#!!top" />
+            <element signature="n#div#16;n#body#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/templates/clothesshop/_parts/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="874">
+          <caret line="38" column="40" selection-start-line="38" selection-start-column="40" selection-end-line="38" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/templates/clothesshop/assets/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="3142" column="20" lean-forward="true" selection-start-line="3142" selection-start-column="20" selection-end-line="3142" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/config/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="562">
+          <caret line="97" column="37" lean-forward="true" selection-start-line="97" selection-start-column="37" selection-end-line="97" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/templates/clothesshop_old/_parts/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="14" column="82" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/templates/clothesshop_old/home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/templates/clothesshop/_parts/footer.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
   </component>
 </project>
