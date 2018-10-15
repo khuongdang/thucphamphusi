@@ -2,6 +2,21 @@
 class Util {
 
     /**
+     * @return array|\Joomla\CMS\Menu\MenuItem[]
+     * @throws Exception
+     */
+    public static function getAllMenuItems()
+    {
+        // Get default menu - JMenu object, look at JMenu api docs
+        $menu = JFactory::getApplication()->getMenu();
+
+        // Get menu items - array with menu items
+        $items = $menu->getMenu();
+
+        return $items;
+    }
+
+    /**
      * @return mixed
      * @since version
      */
@@ -11,7 +26,6 @@ class Util {
         $query = 'SELECT * from #__phocagallery order by `date` LIMIT 0,10';
         $db->setQuery($query);
         $results = $db->loadObjectList();
-        self::dd($results);die;
         return $results;
     }
 

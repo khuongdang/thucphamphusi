@@ -175,6 +175,10 @@ img.img-head {
     text-align: center;
 	margin-top: 2em;
 }
+.logo {
+    min-height: 100px;
+    padding-top: 5px;
+}
 .logo h1{
    font-family: 'Montserrat', sans-serif;
     font-size: 3em;

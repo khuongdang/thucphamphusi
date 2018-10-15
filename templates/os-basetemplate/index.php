@@ -68,10 +68,7 @@ $doc->addScript($this->baseurl . "/templates/" . $this->template . "/javascript/
         <link rel="shortcut icon" href="<?php echo $this->params->get('favicon_file') ?>"/>
 
     <?php else: ?>
-
-        <link rel="shortcut icon"
-              href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/favicon.ico"/>
-
+        <link rel="shortcut icon" href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/favicon.ico"/>
     <?php endif; ?>
 
     <jdoc:include type="head"/>
@@ -134,11 +131,10 @@ Util::getAllProducts();
 <!--====  End of preloader html structure  ====-->
 <div class="header">
     <div class="logo">
-        <h1 ><a href="index.html"><b>T<br>H<br>E</b>Big Store<span>The Best Supermarket</span></a></h1>
+        <img src="images/logo5.png" />
     </div>
     <div class="nav-top">
         <nav class="navbar navbar-default">
-
             <div class="navbar-header nav_2">
                 <button type="button" class="navbar-toggle collapsed navbar-toggle1" data-toggle="collapse" data-target="#bs-megadropdown-tabs">
                     <span class="sr-only">Toggle navigation</span>
@@ -147,17 +143,20 @@ Util::getAllProducts();
                     <span class="icon-bar"></span>
                 </button>
             </div>
+            <?php
+            $all_menu_items = Util::getAllMenuItems();
+            ?>
             <div class="collapse navbar-collapse" id="bs-megadropdown-tabs">
                 <ul class="nav navbar-nav ">
-                    <li ><a href="index.html" class="hyper "><span>Home</span></a></li>
-
-                    <li  class="dropdown active">
+                    <?php foreach ($all_menu_items as $menu) { ?>
+                        <li ><a href="index.html" class="hyper "><span><?php echo $menu->title;?></span></a></li>
+                    <?php } ?>
+                    <!--<li  class="dropdown active">
                         <a href="#" class="dropdown-toggle  hyper" data-toggle="dropdown" ><span>Kitchen<b class="caret"></b></span></a>
                         <ul class="dropdown-menu multi">
                             <div class="row">
                                 <div class="col-sm-3">
                                     <ul class="multi-column-dropdown">
-
                                         <li><a href="kitchen.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Water & Beverages</a></li>
                                         <li><a href="kitchen.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Fruits & Vegetables</a></li>
                                         <li><a href="kitchen.html"> <i class="fa fa-angle-right" aria-hidden="true"></i>Staples</a></li>
@@ -196,7 +195,6 @@ Util::getAllProducts();
                         </ul>
                     </li>
                     <li class="dropdown">
-
                         <a href="#" class="dropdown-toggle hyper" data-toggle="dropdown" ><span> Personal Care <b class="caret"></b></span></a>
                         <ul class="dropdown-menu multi multi1">
                             <div class="row">
@@ -280,9 +278,8 @@ Util::getAllProducts();
                             </div>
                         </ul>
                     </li>
-
                     <li><a href="codes.html" class="hyper"> <span>Codes</span></a></li>
-                    <li><a href="contact.html" class="hyper"><span>Contact Us</span></a></li>
+                    <li><a href="contact.html" class="hyper"><span>Contact Us</span></a></li>-->
                 </ul>
             </div>
         </nav>

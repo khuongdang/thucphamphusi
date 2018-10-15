@@ -165,7 +165,6 @@ class OutputFilter
 
 //remove any '-' from the string they will be used as concatonater
         $str = str_replace('-', ' ', $string);
-
         $str = strtr($str, $trans);
         $lang =& JFactory::getLanguage();
         $str = $lang->transliterate($str);
