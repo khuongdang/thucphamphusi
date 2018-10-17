@@ -1,5 +1,24 @@
 <?php
 class Util {
+    
+    /**
+     * @param $ids
+     * @return mixed
+     */
+    public static function getHotCategories($ids = null)
+    {
+        $where = '';
+        if (!empty($ids)) {
+            $where = ' WHERE catid IN ($ids)';
+        }
+        $db = JFactory::getDbo();
+        $query = 'SELECT p.* FROM #__phocagallery_categories AS pc ' .
+                 'INNER JOIN #__phocagallery AS p ON pc.id = p.`catid` ' . $where . ' ORDER BY RAND() LIMIT 0,3';
+        $db->setQuery($query);
+        $results = $db->loadObjectList();
+        return $results;
+    }
+    
 
     /**
      * @return array|\Joomla\CMS\Menu\MenuItem[]

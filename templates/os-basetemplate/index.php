@@ -5,7 +5,7 @@ $user = JFactory::getUser();
 $templateparams = $app->getTemplate(true)->params;
 $this->language = $doc->language;
 $this->direction = $doc->direction;
-
+$hot_categories = Util::getHotCategories();
 
 // Social icons
 $soc = array(
@@ -62,13 +62,14 @@ $doc->addScript($this->baseurl . "/templates/" . $this->template . "/javascript/
           rel='stylesheet' type='text/css'
     >
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
-
+    
     <?php if ($this->params->get('favicon_file') != ""): ?>
 
         <link rel="shortcut icon" href="<?php echo $this->params->get('favicon_file') ?>"/>
-
+    
     <?php else: ?>
-        <link rel="shortcut icon" href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/favicon.ico"/>
+        <link rel="shortcut icon"
+              href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/favicon.ico"/>
     <?php endif; ?>
 
     <jdoc:include type="head"/>
@@ -83,32 +84,34 @@ $doc->addScript($this->baseurl . "/templates/" . $this->template . "/javascript/
     <!--[if IE 9]>
     <link type="text/css" rel="stylesheet"
           href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/css/style_ie9.css"/> <![endif]-->
-
+    
     <?php
     require_once(JPATH_BASE . '/templates/' . $this->template .
         '/template_details_style/template_details_style.inc.php');
     ?>
-
+    
     <?php
     if ($this->params->get('expand_preloader') !== "0") {
         require_once(JPATH_BASE . '/templates/' . $this->template .
             '/preloader/preloader_style.inc.php');
     }
     ?>
-
+    
     <?php
     if ($this->params->get('expand_preloader') !== "0") {
         require_once(JPATH_BASE . '/templates/' . $this->template .
             '/preloader/preloader_script.inc.php');
     }
     ?>
-    <script type="text/javascript" src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/javascript/move-top.js"></script>
-    <script type="text/javascript" src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/javascript/easing.js"></script>
+    <script type="text/javascript"
+            src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/javascript/move-top.js"></script>
+    <script type="text/javascript"
+            src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/javascript/easing.js"></script>
     <script type="text/javascript">
-        jQuery(document).ready(function($) {
-            $(".scroll").click(function(event){
+        jQuery(document).ready(function ($) {
+            $(".scroll").click(function (event) {
                 event.preventDefault();
-                $('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+                $('html,body').animate({scrollTop: $(this.hash).offset().top}, 1000);
             });
         });
     </script>
@@ -131,12 +134,13 @@ Util::getAllProducts();
 <!--====  End of preloader html structure  ====-->
 <div class="header">
     <div class="logo">
-        <img src="images/logo5.png" />
+        <img src="images/logo5.png"/>
     </div>
     <div class="nav-top">
         <nav class="navbar navbar-default">
             <div class="navbar-header nav_2">
-                <button type="button" class="navbar-toggle collapsed navbar-toggle1" data-toggle="collapse" data-target="#bs-megadropdown-tabs">
+                <button type="button" class="navbar-toggle collapsed navbar-toggle1" data-toggle="collapse"
+                        data-target="#bs-megadropdown-tabs">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
@@ -149,7 +153,7 @@ Util::getAllProducts();
             <div class="collapse navbar-collapse" id="bs-megadropdown-tabs">
                 <ul class="nav navbar-nav ">
                     <?php foreach ($all_menu_items as $menu) { ?>
-                        <li ><a href="index.html" class="hyper "><span><?php echo $menu->title;?></span></a></li>
+                        <li><a href="index.html" class="hyper "><span><?php echo $menu->title; ?></span></a></li>
                     <?php } ?>
                     <!--<li  class="dropdown active">
                         <a href="#" class="dropdown-toggle  hyper" data-toggle="dropdown" ><span>Kitchen<b class="caret"></b></span></a>
@@ -288,16 +292,16 @@ Util::getAllProducts();
     <div class="container">
         <div class="header-ri">
             <ul class="social-top">
-                <li><a href="#" class="icon facebook"><i class="fa fa-facebook" aria-hidden="true"></i><span></span></a></li>
-                <li><a href="#" class="icon twitter"><i class="fa fa-twitter" aria-hidden="true"></i><span></span></a></li>
-                <li><a href="#" class="icon pinterest"><i class="fa fa-pinterest-p" aria-hidden="true"></i><span></span></a></li>
-                <li><a href="#" class="icon dribbble"><i class="fa fa-dribbble" aria-hidden="true"></i><span></span></a></li>
+                <li><a href="#" class="icon facebook"><i class="fa fa-facebook" aria-hidden="true"></i><span></span></a>
+                </li>
+                <li><a href="#" class="icon twitter"><i class="fa fa-twitter" aria-hidden="true"></i><span></span></a>
+                </li>
+                <li><a href="#" class="icon pinterest"><i class="fa fa-pinterest-p" aria-hidden="true"></i><span></span></a>
+                </li>
+                <li><a href="#" class="icon dribbble"><i class="fa fa-dribbble" aria-hidden="true"></i><span></span></a>
+                </li>
             </ul>
         </div>
-
-
-
-
     </div>
 </div>
 <!---->
@@ -335,13 +339,20 @@ Util::getAllProducts();
             <h3>Sản phẩm bán chạy</h3>
 
         </div>
+        <?php
+            foreach($hot_categories as $obj) {
+                $fileOriginal = PhocaGalleryFile::getFileOriginal($obj->filename);
+                var_dump($fileOriginal);
+                $correctImageRes = PhocaGalleryImage::correctSizeWithRate($resW[2], $resH[2], 100, 100);
+        ?>
         <div class="col-md-4 kic-top1">
-            <a href="single.html">
+            <a href="">
                 <img src="images/ki.jpg" class="img-responsive" alt="">
             </a>
             <h6>Dal</h6>
             <p>Nam libero tempore</p>
         </div>
+        <?php }?>
         <div class="col-md-4 kic-top1">
             <a href="single.html">
                 <img src="images/ki1.jpg" class="img-responsive" alt="">
@@ -381,14 +392,17 @@ Util::getAllProducts();
                             <h6><a href="single.html">Wheat</a>(500 g)</h6>
                         </div>
                         <div class="mid-2">
-                            <p ><label>$7.00</label><em class="item_price">$6.00</em></p>
+                            <p><label>$7.00</label><em class="item_price">$6.00</em></p>
                             <div class="block">
-                                <div class="starbox small ghosting"> </div>
+                                <div class="starbox small ghosting"></div>
                             </div>
                             <div class="clearfix"></div>
                         </div>
                         <div class="add">
-                            <button class="btn btn-danger my-cart-btn my-cart-b" data-id="24" data-name="Wheat" data-summary="summary 24" data-price="6.00" data-quantity="1" data-image="images/of24.png">Add to Cart</button>
+                            <button class="btn btn-danger my-cart-btn my-cart-b" data-id="24" data-name="Wheat"
+                                    data-summary="summary 24" data-price="6.00" data-quantity="1"
+                                    data-image="images/of24.png">Add to Cart
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -403,14 +417,17 @@ Util::getAllProducts();
                             <h6><a href="single.html"> Peach Halves</a>(250 g)</h6>
                         </div>
                         <div class="mid-2">
-                            <p ><label>$5.00</label><em class="item_price">$4.50</em></p>
+                            <p><label>$5.00</label><em class="item_price">$4.50</em></p>
                             <div class="block">
-                                <div class="starbox small ghosting"> </div>
+                                <div class="starbox small ghosting"></div>
                             </div>
                             <div class="clearfix"></div>
                         </div>
                         <div class="add">
-                            <button class="btn btn-danger my-cart-btn my-cart-b" data-id="25" data-name="Peach Halves" data-summary="summary 25" data-price="4.50" data-quantity="1" data-image="images/of25.png">Add to Cart</button>
+                            <button class="btn btn-danger my-cart-btn my-cart-b" data-id="25" data-name="Peach Halves"
+                                    data-summary="summary 25" data-price="4.50" data-quantity="1"
+                                    data-image="images/of25.png">Add to Cart
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -425,14 +442,17 @@ Util::getAllProducts();
                             <h6><a href="single.html">Banana</a>(1 kg)</h6>
                         </div>
                         <div class="mid-2">
-                            <p ><label>$4.00</label><em class="item_price">$3.50</em></p>
+                            <p><label>$4.00</label><em class="item_price">$3.50</em></p>
                             <div class="block">
-                                <div class="starbox small ghosting"> </div>
+                                <div class="starbox small ghosting"></div>
                             </div>
                             <div class="clearfix"></div>
                         </div>
                         <div class="add">
-                            <button class="btn btn-danger my-cart-btn my-cart-b" data-id="26" data-name="Banana" data-summary="summary 26" data-price="3.50" data-quantity="1" data-image="images/of26.png">Add to Cart</button>
+                            <button class="btn btn-danger my-cart-btn my-cart-b" data-id="26" data-name="Banana"
+                                    data-summary="summary 26" data-price="3.50" data-quantity="1"
+                                    data-image="images/of26.png">Add to Cart
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -447,14 +467,17 @@ Util::getAllProducts();
                             <h6><a href="single.html">Rice</a>(500 g)</h6>
                         </div>
                         <div class="mid-2">
-                            <p ><label>$1.00</label><em class="item_price">$0.80</em></p>
+                            <p><label>$1.00</label><em class="item_price">$0.80</em></p>
                             <div class="block">
-                                <div class="starbox small ghosting"> </div>
+                                <div class="starbox small ghosting"></div>
                             </div>
                             <div class="clearfix"></div>
                         </div>
                         <div class="add">
-                            <button class="btn btn-danger my-cart-btn my-cart-b" data-id="27" data-name="Rice" data-summary="summary 27" data-price="0.80" data-quantity="1" data-image="images/of27.png">Add to Cart</button>
+                            <button class="btn btn-danger my-cart-btn my-cart-b" data-id="27" data-name="Rice"
+                                    data-summary="summary 27" data-price="0.80" data-quantity="1"
+                                    data-image="images/of27.png">Add to Cart
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -470,14 +493,17 @@ Util::getAllProducts();
                             <h6><a href="single.html">Oil</a>(500 g)</h6>
                         </div>
                         <div class="mid-2">
-                            <p ><label>$7.00</label><em class="item_price">$6.00</em></p>
+                            <p><label>$7.00</label><em class="item_price">$6.00</em></p>
                             <div class="block">
-                                <div class="starbox small ghosting"> </div>
+                                <div class="starbox small ghosting"></div>
                             </div>
                             <div class="clearfix"></div>
                         </div>
                         <div class="add">
-                            <button class="btn btn-danger my-cart-btn my-cart-b" data-id="28" data-name="Oil" data-summary="summary 28" data-price="6.00" data-quantity="1" data-image="images/of28.png">Add to Cart</button>
+                            <button class="btn btn-danger my-cart-btn my-cart-b" data-id="28" data-name="Oil"
+                                    data-summary="summary 28" data-price="6.00" data-quantity="1"
+                                    data-image="images/of28.png">Add to Cart
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -492,14 +518,17 @@ Util::getAllProducts();
                             <h6><a href="single.html">Biscuits</a>(250 g)</h6>
                         </div>
                         <div class="mid-2">
-                            <p ><label>$5.00</label><em class="item_price">$4.50</em></p>
+                            <p><label>$5.00</label><em class="item_price">$4.50</em></p>
                             <div class="block">
-                                <div class="starbox small ghosting"> </div>
+                                <div class="starbox small ghosting"></div>
                             </div>
                             <div class="clearfix"></div>
                         </div>
                         <div class="add">
-                            <button class="btn btn-danger my-cart-btn my-cart-b" data-id="29" data-name="Biscuits" data-summary="summary 29" data-price="4.50" data-quantity="1" data-image="images/of29.png">Add to Cart</button>
+                            <button class="btn btn-danger my-cart-btn my-cart-b" data-id="29" data-name="Biscuits"
+                                    data-summary="summary 29" data-price="4.50" data-quantity="1"
+                                    data-image="images/of29.png">Add to Cart
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -514,14 +543,17 @@ Util::getAllProducts();
                             <h6><a href="single.html">Nuts</a>(1 kg)</h6>
                         </div>
                         <div class="mid-2">
-                            <p ><label>$4.00</label><em class="item_price">$3.50</em></p>
+                            <p><label>$4.00</label><em class="item_price">$3.50</em></p>
                             <div class="block">
-                                <div class="starbox small ghosting"> </div>
+                                <div class="starbox small ghosting"></div>
                             </div>
                             <div class="clearfix"></div>
                         </div>
                         <div class="add">
-                            <button class="btn btn-danger my-cart-btn my-cart-b" data-id="30" data-name="Nuts" data-summary="summary 30" data-price="3.50" data-quantity="1" data-image="images/of30.png">Add to Cart</button>
+                            <button class="btn btn-danger my-cart-btn my-cart-b" data-id="30" data-name="Nuts"
+                                    data-summary="summary 30" data-price="3.50" data-quantity="1"
+                                    data-image="images/of30.png">Add to Cart
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -536,14 +568,17 @@ Util::getAllProducts();
                             <h6><a href="single.html">Rice</a>(500 g)</h6>
                         </div>
                         <div class="mid-2">
-                            <p ><label>$1.00</label><em class="item_price">$0.80</em></p>
+                            <p><label>$1.00</label><em class="item_price">$0.80</em></p>
                             <div class="block">
-                                <div class="starbox small ghosting"> </div>
+                                <div class="starbox small ghosting"></div>
                             </div>
                             <div class="clearfix"></div>
                         </div>
                         <div class="add">
-                            <button class="btn btn-danger my-cart-btn my-cart-b" data-id="31" data-name="Rice" data-summary="summary 31" data-price="0.80" data-quantity="1" data-image="images/of31.png">Add to Cart</button>
+                            <button class="btn btn-danger my-cart-btn my-cart-b" data-id="31" data-name="Rice"
+                                    data-summary="summary 31" data-price="0.80" data-quantity="1"
+                                    data-image="images/of31.png">Add to Cart
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -558,14 +593,17 @@ Util::getAllProducts();
                             <h6><a href="single.html">Noodles</a>(500 g)</h6>
                         </div>
                         <div class="mid-2">
-                            <p ><label>$7.00</label><em class="item_price">$6.00</em></p>
+                            <p><label>$7.00</label><em class="item_price">$6.00</em></p>
                             <div class="block">
-                                <div class="starbox small ghosting"> </div>
+                                <div class="starbox small ghosting"></div>
                             </div>
                             <div class="clearfix"></div>
                         </div>
                         <div class="add">
-                            <button class="btn btn-danger my-cart-btn my-cart-b" data-id="32" data-name="Noodles" data-summary="summary 32" data-price="6.00" data-quantity="1" data-image="images/of32.png">Add to Cart</button>
+                            <button class="btn btn-danger my-cart-btn my-cart-b" data-id="32" data-name="Noodles"
+                                    data-summary="summary 32" data-price="6.00" data-quantity="1"
+                                    data-image="images/of32.png">Add to Cart
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -580,14 +618,17 @@ Util::getAllProducts();
                             <h6><a href="single.html">Tea</a>(250 g)</h6>
                         </div>
                         <div class="mid-2">
-                            <p ><label>$5.00</label><em class="item_price">$4.50</em></p>
+                            <p><label>$5.00</label><em class="item_price">$4.50</em></p>
                             <div class="block">
-                                <div class="starbox small ghosting"> </div>
+                                <div class="starbox small ghosting"></div>
                             </div>
                             <div class="clearfix"></div>
                         </div>
                         <div class="add">
-                            <button class="btn btn-danger my-cart-btn my-cart-b" data-id="33" data-name="Tea" data-summary="summary 33" data-price="4.50" data-quantity="1" data-image="images/of33.png">Add to Cart</button>
+                            <button class="btn btn-danger my-cart-btn my-cart-b" data-id="33" data-name="Tea"
+                                    data-summary="summary 33" data-price="4.50" data-quantity="1"
+                                    data-image="images/of33.png">Add to Cart
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -602,14 +643,17 @@ Util::getAllProducts();
                             <h6><a href="single.html">Seafood</a>(1 kg)</h6>
                         </div>
                         <div class="mid-2">
-                            <p ><label>$4.00</label><em class="item_price">$3.50</em></p>
+                            <p><label>$4.00</label><em class="item_price">$3.50</em></p>
                             <div class="block">
-                                <div class="starbox small ghosting"> </div>
+                                <div class="starbox small ghosting"></div>
                             </div>
                             <div class="clearfix"></div>
                         </div>
                         <div class="add">
-                            <button class="btn btn-danger my-cart-btn my-cart-b" data-id="34" data-name="Seafood" data-summary="summary 34" data-price="3.50" data-quantity="1" data-image="images/of34.png">Add to Cart</button>
+                            <button class="btn btn-danger my-cart-btn my-cart-b" data-id="34" data-name="Seafood"
+                                    data-summary="summary 34" data-price="3.50" data-quantity="1"
+                                    data-image="images/of34.png">Add to Cart
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -624,14 +668,17 @@ Util::getAllProducts();
                             <h6><a href="single.html">Oats Idli</a>(500 g)</h6>
                         </div>
                         <div class="mid-2">
-                            <p ><label>$1.00</label><em class="item_price">$0.80</em></p>
+                            <p><label>$1.00</label><em class="item_price">$0.80</em></p>
                             <div class="block">
-                                <div class="starbox small ghosting"> </div>
+                                <div class="starbox small ghosting"></div>
                             </div>
                             <div class="clearfix"></div>
                         </div>
                         <div class="add">
-                            <button class="btn btn-danger my-cart-btn my-cart-b" data-id="35" data-name="Oats Idli" data-summary="summary 35" data-price="0.80" data-quantity="1" data-image="images/of35.png">Add to Cart</button>
+                            <button class="btn btn-danger my-cart-btn my-cart-b" data-id="35" data-name="Oats Idli"
+                                    data-summary="summary 35" data-price="0.80" data-quantity="1"
+                                    data-image="images/of35.png">Add to Cart
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -674,8 +721,9 @@ Util::getAllProducts();
 
         <div class="clearfix"></div>
         <div class="footer-bottom">
-            <h2 ><a href="index.html"><b>T<br>H<br>E</b>Big Store<span>The Best Supermarket</span></a></h2>
-            <p class="fo-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris</p>
+            <h2><a href="index.html"><b>T<br>H<br>E</b>Big Store<span>The Best Supermarket</span></a></h2>
+            <p class="fo-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris</p>
             <ul class="social-fo">
                 <li><a href="#" class=" face"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
                 <li><a href="#" class=" twi"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
@@ -690,14 +738,16 @@ Util::getAllProducts();
                     <p><i class="fa fa-phone" aria-hidden="true"></i>+1234 758 839 , +1273 748 730</p>
                 </div>
                 <div class="col-md-4 fo-grid1">
-                    <p><a href="mailto:info@example.com"><i class="fa fa-envelope-o" aria-hidden="true"></i>info@example1.com</a></p>
+                    <p><a href="mailto:info@example.com"><i class="fa fa-envelope-o" aria-hidden="true"></i>info@example1.com</a>
+                    </p>
                 </div>
                 <div class="clearfix"></div>
 
             </div>
         </div>
         <div class="copy-right">
-            <p> &copy; <?php echo date('Y');?> Big store. All Rights Reserved | Design by  <a href="http://w3layouts.com/"> W3layouts</a></p>
+            <p> &copy; <?php echo date('Y'); ?> Big store. All Rights Reserved | Design by <a
+                        href="http://w3layouts.com/"> W3layouts</a></p>
         </div>
     </div>
 </div>
@@ -705,7 +755,7 @@ Util::getAllProducts();
 
 <!-- smooth scrolling -->
 <script type="text/javascript">
-    jQuery(document).ready(function() {
+    jQuery(document).ready(function () {
         /*
             var defaults = {
             containerID: 'toTop', // fading element id
@@ -714,7 +764,7 @@ Util::getAllProducts();
             easingType: 'linear'
             };
         */
-        jQuery().UItoTop({ easingType: 'easeOutQuart' });
+        jQuery().UItoTop({easingType: 'easeOutQuart'});
     });
 </script>
 <a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
@@ -725,7 +775,8 @@ Util::getAllProducts();
     <div class="modal-dialog" role="document">
         <div class="modal-content modal-info">
             <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+                </button>
             </div>
             <div class="modal-body modal-spa">
                 <div class="col-md-5 span-2">
@@ -742,12 +793,16 @@ Util::getAllProducts();
                         <div class="clearfix"></div>
                     </div>
                     <h4 class="quick">Quick Overview:</h4>
-                    <p class="quick_desc"> Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; es</p>
+                    <p class="quick_desc"> Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet
+                        doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; es</p>
                     <div class="add-to">
-                        <button class="btn btn-danger my-cart-btn my-cart-btn1 " data-id="24" data-name="Wheat" data-summary="summary 24" data-price="1.50" data-quantity="1" data-image="images/of24.png">Add to Cart</button>
+                        <button class="btn btn-danger my-cart-btn my-cart-btn1 " data-id="24" data-name="Wheat"
+                                data-summary="summary 24" data-price="1.50" data-quantity="1"
+                                data-image="images/of24.png">Add to Cart
+                        </button>
                     </div>
                 </div>
-                <div class="clearfix"> </div>
+                <div class="clearfix"></div>
             </div>
         </div>
     </div>
@@ -757,7 +812,8 @@ Util::getAllProducts();
     <div class="modal-dialog" role="document">
         <div class="modal-content modal-info">
             <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+                </button>
             </div>
             <div class="modal-body modal-spa">
                 <div class="col-md-5 span-2">
@@ -774,12 +830,16 @@ Util::getAllProducts();
                         <div class="clearfix"></div>
                     </div>
                     <h4 class="quick">Quick Overview:</h4>
-                    <p class="quick_desc"> Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; es</p>
+                    <p class="quick_desc"> Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet
+                        doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; es</p>
                     <div class="add-to">
-                        <button class="btn btn-danger my-cart-btn my-cart-btn1 " data-id="25" data-name="Peach Halves" data-summary="summary 25" data-price="9.00" data-quantity="1" data-image="images/of25.png">Add to Cart</button>
+                        <button class="btn btn-danger my-cart-btn my-cart-btn1 " data-id="25" data-name="Peach Halves"
+                                data-summary="summary 25" data-price="9.00" data-quantity="1"
+                                data-image="images/of25.png">Add to Cart
+                        </button>
                     </div>
                 </div>
-                <div class="clearfix"> </div>
+                <div class="clearfix"></div>
             </div>
         </div>
     </div>
@@ -789,7 +849,8 @@ Util::getAllProducts();
     <div class="modal-dialog" role="document">
         <div class="modal-content modal-info">
             <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+                </button>
             </div>
             <div class="modal-body modal-spa">
                 <div class="col-md-5 span-2">
@@ -806,12 +867,16 @@ Util::getAllProducts();
                         <div class="clearfix"></div>
                     </div>
                     <h4 class="quick">Quick Overview:</h4>
-                    <p class="quick_desc"> Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; es</p>
+                    <p class="quick_desc"> Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet
+                        doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; es</p>
                     <div class="add-to">
-                        <button class="btn btn-danger my-cart-btn my-cart-btn1 " data-id="26" data-name="Banana" data-summary="summary 26" data-price="2.00" data-quantity="1" data-image="images/of26.png">Add to Cart</button>
+                        <button class="btn btn-danger my-cart-btn my-cart-btn1 " data-id="26" data-name="Banana"
+                                data-summary="summary 26" data-price="2.00" data-quantity="1"
+                                data-image="images/of26.png">Add to Cart
+                        </button>
                     </div>
                 </div>
-                <div class="clearfix"> </div>
+                <div class="clearfix"></div>
             </div>
         </div>
     </div>
@@ -821,7 +886,8 @@ Util::getAllProducts();
     <div class="modal-dialog" role="document">
         <div class="modal-content modal-info">
             <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+                </button>
             </div>
             <div class="modal-body modal-spa">
                 <div class="col-md-5 span-2">
@@ -838,12 +904,16 @@ Util::getAllProducts();
                         <div class="clearfix"></div>
                     </div>
                     <h4 class="quick">Quick Overview:</h4>
-                    <p class="quick_desc"> Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; es</p>
+                    <p class="quick_desc"> Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet
+                        doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; es</p>
                     <div class="add-to">
-                        <button class="btn btn-danger my-cart-btn my-cart-btn1 " data-id="27" data-name="Rice" data-summary="summary 27" data-price="3.50" data-quantity="1" data-image="images/of27.png">Add to Cart</button>
+                        <button class="btn btn-danger my-cart-btn my-cart-btn1 " data-id="27" data-name="Rice"
+                                data-summary="summary 27" data-price="3.50" data-quantity="1"
+                                data-image="images/of27.png">Add to Cart
+                        </button>
                     </div>
                 </div>
-                <div class="clearfix"> </div>
+                <div class="clearfix"></div>
             </div>
         </div>
     </div>
@@ -853,7 +923,8 @@ Util::getAllProducts();
     <div class="modal-dialog" role="document">
         <div class="modal-content modal-info">
             <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+                </button>
             </div>
             <div class="modal-body modal-spa">
                 <div class="col-md-5 span-2">
@@ -870,12 +941,16 @@ Util::getAllProducts();
                         <div class="clearfix"></div>
                     </div>
                     <h4 class="quick">Quick Overview:</h4>
-                    <p class="quick_desc"> Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; es</p>
+                    <p class="quick_desc"> Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet
+                        doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; es</p>
                     <div class="add-to">
-                        <button class="btn btn-danger my-cart-btn my-cart-btn1 " data-id="28" data-name="Oil(500 g)" data-summary="summary 28" data-price="0.70" data-quantity="1" data-image="images/of28.png">Add to Cart</button>
+                        <button class="btn btn-danger my-cart-btn my-cart-btn1 " data-id="28" data-name="Oil(500 g)"
+                                data-summary="summary 28" data-price="0.70" data-quantity="1"
+                                data-image="images/of28.png">Add to Cart
+                        </button>
                     </div>
                 </div>
-                <div class="clearfix"> </div>
+                <div class="clearfix"></div>
             </div>
         </div>
     </div>
@@ -885,7 +960,8 @@ Util::getAllProducts();
     <div class="modal-dialog" role="document">
         <div class="modal-content modal-info">
             <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+                </button>
             </div>
             <div class="modal-body modal-spa">
                 <div class="col-md-5 span-2">
@@ -902,12 +978,16 @@ Util::getAllProducts();
                         <div class="clearfix"></div>
                     </div>
                     <h4 class="quick">Quick Overview:</h4>
-                    <p class="quick_desc"> Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; es</p>
+                    <p class="quick_desc"> Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet
+                        doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; es</p>
                     <div class="add-to">
-                        <button class="btn btn-danger my-cart-btn my-cart-btn1 " data-id="29" data-name="Biscuits" data-summary="summary 29" data-price="0.70" data-quantity="1" data-image="images/of29.png">Add to Cart</button>
+                        <button class="btn btn-danger my-cart-btn my-cart-btn1 " data-id="29" data-name="Biscuits"
+                                data-summary="summary 29" data-price="0.70" data-quantity="1"
+                                data-image="images/of29.png">Add to Cart
+                        </button>
                     </div>
                 </div>
-                <div class="clearfix"> </div>
+                <div class="clearfix"></div>
             </div>
         </div>
     </div>
@@ -917,7 +997,8 @@ Util::getAllProducts();
     <div class="modal-dialog" role="document">
         <div class="modal-content modal-info">
             <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+                </button>
             </div>
             <div class="modal-body modal-spa">
                 <div class="col-md-5 span-2">
@@ -934,12 +1015,16 @@ Util::getAllProducts();
                         <div class="clearfix"></div>
                     </div>
                     <h4 class="quick">Quick Overview:</h4>
-                    <p class="quick_desc"> Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; es</p>
+                    <p class="quick_desc"> Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet
+                        doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; es</p>
                     <div class="add-to">
-                        <button class="btn btn-danger my-cart-btn my-cart-btn1 " data-id="30" data-name="Nuts" data-summary="summary 30" data-price="1.00" data-quantity="1" data-image="images/of30.png">Add to Cart</button>
+                        <button class="btn btn-danger my-cart-btn my-cart-btn1 " data-id="30" data-name="Nuts"
+                                data-summary="summary 30" data-price="1.00" data-quantity="1"
+                                data-image="images/of30.png">Add to Cart
+                        </button>
                     </div>
                 </div>
-                <div class="clearfix"> </div>
+                <div class="clearfix"></div>
             </div>
         </div>
     </div>
@@ -949,7 +1034,8 @@ Util::getAllProducts();
     <div class="modal-dialog" role="document">
         <div class="modal-content modal-info">
             <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+                </button>
             </div>
             <div class="modal-body modal-spa">
                 <div class="col-md-5 span-2">
@@ -966,12 +1052,16 @@ Util::getAllProducts();
                         <div class="clearfix"></div>
                     </div>
                     <h4 class="quick">Quick Overview:</h4>
-                    <p class="quick_desc"> Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; es</p>
+                    <p class="quick_desc"> Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet
+                        doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; es</p>
                     <div class="add-to">
-                        <button class="btn btn-danger my-cart-btn my-cart-btn1 " data-id="31" data-name="Rice" data-summary="summary 31" data-price="3.50" data-quantity="1" data-image="images/of31.png">Add to Cart</button>
+                        <button class="btn btn-danger my-cart-btn my-cart-btn1 " data-id="31" data-name="Rice"
+                                data-summary="summary 31" data-price="3.50" data-quantity="1"
+                                data-image="images/of31.png">Add to Cart
+                        </button>
                     </div>
                 </div>
-                <div class="clearfix"> </div>
+                <div class="clearfix"></div>
             </div>
         </div>
     </div>
@@ -981,7 +1071,8 @@ Util::getAllProducts();
     <div class="modal-dialog" role="document">
         <div class="modal-content modal-info">
             <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+                </button>
             </div>
             <div class="modal-body modal-spa">
                 <div class="col-md-5 span-2">
@@ -998,12 +1089,16 @@ Util::getAllProducts();
                         <div class="clearfix"></div>
                     </div>
                     <h4 class="quick">Quick Overview:</h4>
-                    <p class="quick_desc"> Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; es</p>
+                    <p class="quick_desc"> Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet
+                        doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; es</p>
                     <div class="add-to">
-                        <button class="btn btn-danger my-cart-btn my-cart-btn1 " data-id="32" data-name="Noodles" data-summary="summary 32" data-price="1.50" data-quantity="1" data-image="images/of32.png">Add to Cart</button>
+                        <button class="btn btn-danger my-cart-btn my-cart-btn1 " data-id="32" data-name="Noodles"
+                                data-summary="summary 32" data-price="1.50" data-quantity="1"
+                                data-image="images/of32.png">Add to Cart
+                        </button>
                     </div>
                 </div>
-                <div class="clearfix"> </div>
+                <div class="clearfix"></div>
             </div>
         </div>
     </div>
@@ -1013,7 +1108,8 @@ Util::getAllProducts();
     <div class="modal-dialog" role="document">
         <div class="modal-content modal-info">
             <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+                </button>
             </div>
             <div class="modal-body modal-spa">
                 <div class="col-md-5 span-2">
@@ -1031,12 +1127,16 @@ Util::getAllProducts();
                         <div class="clearfix"></div>
                     </div>
                     <h4 class="quick">Quick Overview:</h4>
-                    <p class="quick_desc"> Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; es</p>
+                    <p class="quick_desc"> Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet
+                        doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; es</p>
                     <div class="add-to">
-                        <button class="btn btn-danger my-cart-btn my-cart-btn1 " data-id="33" data-name="Seafood" data-summary="summary 33" data-price="0.70" data-quantity="1" data-image="images/of33.png">Add to Cart</button>
+                        <button class="btn btn-danger my-cart-btn my-cart-btn1 " data-id="33" data-name="Seafood"
+                                data-summary="summary 33" data-price="0.70" data-quantity="1"
+                                data-image="images/of33.png">Add to Cart
+                        </button>
                     </div>
                 </div>
-                <div class="clearfix"> </div>
+                <div class="clearfix"></div>
             </div>
         </div>
     </div>
@@ -1046,7 +1146,8 @@ Util::getAllProducts();
     <div class="modal-dialog" role="document">
         <div class="modal-content modal-info">
             <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+                </button>
             </div>
             <div class="modal-body modal-spa">
                 <div class="col-md-5 span-2">
@@ -1064,12 +1165,16 @@ Util::getAllProducts();
                         <div class="clearfix"></div>
                     </div>
                     <h4 class="quick">Quick Overview:</h4>
-                    <p class="quick_desc"> Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; es</p>
+                    <p class="quick_desc"> Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet
+                        doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; es</p>
                     <div class="add-to">
-                        <button class="btn btn-danger my-cart-btn my-cart-btn1 " data-id="34" data-name="Oats Idli" data-summary="summary 34" data-price="1.00" data-quantity="1" data-image="images/of34.png">Add to Cart</button>
+                        <button class="btn btn-danger my-cart-btn my-cart-btn1 " data-id="34" data-name="Oats Idli"
+                                data-summary="summary 34" data-price="1.00" data-quantity="1"
+                                data-image="images/of34.png">Add to Cart
+                        </button>
                     </div>
                 </div>
-                <div class="clearfix"> </div>
+                <div class="clearfix"></div>
             </div>
         </div>
     </div>
@@ -1079,7 +1184,8 @@ Util::getAllProducts();
     <div class="modal-dialog" role="document">
         <div class="modal-content modal-info">
             <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+                </button>
             </div>
             <div class="modal-body modal-spa">
                 <div class="col-md-5 span-2">
@@ -1096,12 +1202,16 @@ Util::getAllProducts();
                         <div class="clearfix"></div>
                     </div>
                     <h4 class="quick">Quick Overview:</h4>
-                    <p class="quick_desc"> Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; es</p>
+                    <p class="quick_desc"> Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet
+                        doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; es</p>
                     <div class="add-to">
-                        <button class="btn btn-danger my-cart-btn my-cart-btn1 " data-id="35" data-name="product 35" data-summary="summary 35" data-price="3.50" data-quantity="1" data-image="images/of35.png">Add to Cart</button>
+                        <button class="btn btn-danger my-cart-btn my-cart-btn1 " data-id="35" data-name="product 35"
+                                data-summary="summary 35" data-price="3.50" data-quantity="1"
+                                data-image="images/of35.png">Add to Cart
+                        </button>
                     </div>
                 </div>
-                <div class="clearfix"> </div>
+                <div class="clearfix"></div>
             </div>
         </div>
     </div>
