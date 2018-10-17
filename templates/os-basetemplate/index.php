@@ -340,33 +340,17 @@ Util::getAllProducts();
 
         </div>
         <?php
-            foreach($hot_categories as $obj) {
-                $fileOriginal = PhocaGalleryFile::getFileOriginal($obj->filename);
-                var_dump($fileOriginal);
-                $correctImageRes = PhocaGalleryImage::correctSizeWithRate($resW[2], $resH[2], 100, 100);
-        ?>
-        <div class="col-md-4 kic-top1">
-            <a href="">
-                <img src="images/ki.jpg" class="img-responsive" alt="">
-            </a>
-            <h6>Dal</h6>
-            <p>Nam libero tempore</p>
-        </div>
-        <?php }?>
-        <div class="col-md-4 kic-top1">
-            <a href="single.html">
-                <img src="images/ki1.jpg" class="img-responsive" alt="">
-            </a>
-            <h6>Snacks</h6>
-            <p>Nam libero tempore</p>
-        </div>
-        <div class="col-md-4 kic-top1">
-            <a href="single.html">
-                <img src="images/ki2.jpg" class="img-responsive" alt="">
-            </a>
-            <h6>Spice</h6>
-            <p>Nam libero tempore</p>
-        </div>
+        foreach ($hot_categories as $obj) {
+            $file_name = Util::getFileOriginal($obj->filename, 1);
+            ?>
+            <div class="col-md-4 kic-top1">
+                <a href="">
+                    <img src="<?php echo $file_name;?>" class="img-responsive" alt="">
+                </a>
+                <h6>Dal</h6>
+                <p>Nam libero tempore</p>
+            </div>
+        <?php } ?>
     </div>
 </div>
 

@@ -2,6 +2,26 @@
 class Util {
     
     /**
+     * @param $filename
+     * @param int $rel
+     * @return mixed|string
+     */
+    public static function getFileOriginal($filename, $rel = 0) {
+        if (!class_exists('PhocaGalleryLoader')) {
+            require_once(JPATH_ADMINISTRATOR . '/components/com_phocagallery/libraries/loader.php');
+        }
+        phocagalleryimport('phocagallery.image.image');
+        phocagalleryimport('phocagallery.path.path');
+        $path	= PhocaGalleryPath::getPath();
+        $filename = str_replace(" ", '%20', $filename);
+        if ($rel == 1) {
+            return str_replace('//', '/', $path->image_rel . $filename);
+        } else {
+            return JPath::clean($path->image_abs . $filename);
+        }
+    }
+    
+    /**
      * @param $ids
      * @return mixed
      */
