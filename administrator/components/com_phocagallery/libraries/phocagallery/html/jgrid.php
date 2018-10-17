@@ -36,6 +36,28 @@ class PhocaGalleryJGrid extends JHtmlJGrid
 		);
 		return self::state($states, $value, $i, $prefix, $enabled, true, $checkbox);
 	}
-	
+
+    /**
+     * @param $value
+     * @param $i
+     * @param string $prefix
+     * @param bool $enabled
+     * @param string $checkbox
+     * @return string
+     */
+    public static function hot_cat($value, $i, $prefix = '', $enabled = true, $checkbox='cb')
+    {
+        if (is_array($prefix)) {
+            $options	= $prefix;
+            $enabled	= array_key_exists('enabled',	$options) ? $options['enabled']		: $enabled;
+            $checkbox	= array_key_exists('checkbox',	$options) ? $options['checkbox']	: $checkbox;
+            $prefix		= array_key_exists('prefix',	$options) ? $options['prefix']		: '';
+        }
+        $states	= array(
+            1	=> array('hot_cat',	'COM_PHOCAGALLERY_APPROVED',	'COM_PHOCAGALLERY_NOT_APPROVE_ITEM',	'COM_PHOCAGALLERY_APPROVED',	false,	'publish',		'hot_cat'),
+            0	=> array('un_hot_cat',		'COM_PHOCAGALLERY_NOT_APPROVED',	'COM_PHOCAGALLERY_APPROVE_ITEM',	'COM_PHOCAGALLERY_NOT_APPROVED',	false,	'unpublish',	'un_hot_cat')
+        );
+        return self::state($states, $value, $i, $prefix, $enabled, true, $checkbox);
+    }
 }
 ?>

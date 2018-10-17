@@ -76,7 +76,8 @@ echo $r->startTblHeader();
 echo $r->thOrdering('JGRID_HEADING_ORDERING', $listDirn, $listOrder);
 echo $r->thCheck('JGLOBAL_CHECK_ALL');
 echo '<th class="ph-title">'.JHTML::_('grid.sort',  	$OPT.'_TITLE', 'a.title', $listDirn, $listOrder ).'</th>'."\n";
-echo '<th class="ph-published">'.JHTML::_('grid.sort',  $OPT.'_PUBLISHED', 'a.published', $listDirn, $listOrder ).'</th>'."\n";	
+echo '<th class="ph-published">'.JHTML::_('grid.sort',  $OPT.'_PUBLISHED', 'a.published', $listDirn, $listOrder ).'</th>'."\n";
+echo '<th class="ph-hot_cat">'.JHTML::_('grid.sort',  	$OPT.'_HOTCAT', 'a.hot_cat', $listDirn, $listOrder ).'</th>'."\n";
 echo '<th class="ph-approved">'.JHTML::_('grid.sort',  	$OPT.'_APPROVED', 'a.approved', $listDirn, $listOrder ).'</th>'."\n";
 echo '<th class="ph-parentcattitle">'.JHTML::_('grid.sort', $OPT.'_PARENT_CATEGORY', 'parentcat_title', $listDirn, $listOrder ).'</th>'."\n";
 echo '<th class="ph-access">'.JTEXT::_($OPT.'_ACCESS').'</th>'."\n";
@@ -93,8 +94,8 @@ echo '<tbody>'. "\n";
 $originalOrders = array();	
 $parentsStr 	= "";		
 $j 				= 0;
-
-
+phpinfo();
+var_dump($this->items);die;
 if (is_array($this->items)) {
 	foreach ($this->items as $i => $item) {
 		if ($i >= (int)$this->pagination->limitstart && $j < (int)$this->pagination->limit) {
@@ -139,6 +140,7 @@ if ($canCreate || $canEdit) {
 $checkO .= ' <span class="smallsub">(<span>'.JText::_($OPT.'_FIELD_ALIAS_LABEL').':</span>'. $this->escape($item->alias).')</span>';
 echo $r->td($checkO, "small");
 echo $r->td(JHtml::_('jgrid.published', $item->published, $i, $tasks.'.', $canChange), "small");
+echo $r->td(PhocaGalleryJGrid::hot_cat( $item->hot_cat, $i, $tasks.'.', $canChange), "small");
 echo $r->td(PhocaGalleryJGrid::approved( $item->approved, $i, $tasks.'.', $canChange), "small");
 
 if ($canEditParent) {

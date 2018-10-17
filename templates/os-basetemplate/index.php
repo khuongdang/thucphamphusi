@@ -332,7 +332,7 @@ Util::getAllProducts();
 <div class="kic-top ">
     <div class="container ">
         <div class="kic ">
-            <h3>Popular Categories</h3>
+            <h3>Sản phẩm bán chạy</h3>
 
         </div>
         <div class="col-md-4 kic-top1">

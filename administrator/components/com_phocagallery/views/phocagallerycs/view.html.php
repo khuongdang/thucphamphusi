@@ -138,6 +138,7 @@ class PhocaGalleryCpViewPhocaGalleryCs extends JViewLegacy
 			JToolbarHelper ::custom('phocagallerycs.publish', 'publish.png', 'publish_f2.png','JToolbar_PUBLISH', true);
 			JToolbarHelper ::custom('phocagallerycs.unpublish', 'unpublish.png', 'unpublish_f2.png', 'JToolbar_UNPUBLISH', true);
 			JToolbarHelper ::custom( 'phocagallerycs.approve', 'approve.png', '', 'COM_PHOCAGALLERY_APPROVE' , true);
+			JToolbarHelper ::custom( 'phocagallerycs.hot_cat', 'approve.png', '', 'COM_PHOCAGALLERY_APPROVE' , true);
 			JToolbarHelper ::custom( 'phocagallerycs.disapprove', 'disapprove.png', '',  'COM_PHOCAGALLERY_NOT_APPROVE' , true);
 			JToolbarHelper ::custom('phocagallerycs.cooliris', 'cooliris.png', '',  'COM_PHOCAGALLERY_COOLIRIS' , true);
 		}
@@ -233,6 +234,7 @@ class PhocaGalleryCpViewPhocaGalleryCs extends JViewLegacy
 					$tree[$iCT]->zoom				= $key->zoom;
 					$tree[$iCT]->geotitle			= $key->geotitle;
 					$tree[$iCT]->approved			= $key->approved;
+                    $tree[$iCT]->hot_cat			= $key->hot_cat;
 					$tree[$iCT]->language			= $key->language;
 					$tree[$iCT]->language_title		= $key->language_title;
 					$tree[$iCT]->link				= '';
@@ -258,6 +260,7 @@ class PhocaGalleryCpViewPhocaGalleryCs extends JViewLegacy
 			'a.title' 		=> JText::_('COM_PHOCAGALLERY_TITLE'),
 			'a.published' 	=> JText::_('COM_PHOCAGALLERY_PUBLISHED'),
 			'a.approved' 	=> JText::_('COM_PHOCAGALLERY_APPROVED'),
+			'a.hot_cat' 	=> JText::_('COM_PHOCAGALLERY_APPROVED'),
 			'parent_title' 	=> JText::_('COM_PHOCAGALLERY_PARENT_CATEGORY'),
 			'a.owner' 		=> JText::_('COM_PHOCAGALLERY_OWNER'),
 			'ratingavg' 	=> JText::_('COM_PHOCAGALLERY_RATING'),
