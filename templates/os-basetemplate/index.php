@@ -36,16 +36,6 @@ $doc->addStyleSheet($this->baseurl . "/templates/" . $this->template . "/css/sty
 // Add Script
 $doc->addScript($this->baseurl . "/templates/" . $this->template . "/bootstrap/js/bootstrapOS.js");
 $doc->addScript($this->baseurl . "/templates/" . $this->template . "/javascript/custom.js");
-
-
-//if(version_compare(JVERSION,"3.0.0","ge")){
-//  JHtml::_('bootstrap.framework');
-//}  else {
-// $doc->addScript($this->baseurl."/templates/".$this->template."/bootstrap/js/bootstrap-joomin.js");
-//$doc->addScript($this->baseurl."/templates/".$this->template."/bootstrap/js/bootstrap.min.js");
-
-//}
-
 ?>
 
 <!DOCTYPE html>
