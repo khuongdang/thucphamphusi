@@ -1,6 +1,9 @@
 <?php
 class Util {
-    
+
+    const DEFAULT_LIMIT = 10;
+    const MIN_LIMIT     = 1;
+
     /**
      * @param $filename
      * @param int $rel
@@ -30,7 +33,11 @@ class Util {
         $db = JFactory::getDbo();
         $query = 'SELECT * FROM #__phocagallery_categories AS pc WHERE pc.hot_cat = 1 ORDER BY RAND()';
         $db->setQuery($query);
-        $results = $db->loadObjectList();
+        $results = $db->loadAssocList();
+
+        foreach($results as $index => $obj) {
+            $results[$index]['product_info'] = self::getProductFromCategory($obj['id'], 1);
+        }
         return $results;
     }
 
@@ -40,20 +47,43 @@ class Util {
         $query = 'SELECT * FROM #__phocagallery AS pc WHERE pc.hot_cat = 1 ORDER BY RAND()';
         $db->setQuery($query);
         $results = $db->loadObject();
-        foreach (self::getHotCategories()) {
+        return $results;
+    }
 
+    /**
+     * @param $id_category
+     * @param $limit
+     * @return mixed
+     */
+    public static function getProductFromCategory($id_category, $limit)
+    {
+        if (empty($limit)) {
+            $limit = self::DEFAULT_LIMIT;
+        }
+        $db = JFactory::getDbo();
+        $query = "SELECT * FROM #__phocagallery AS p WHERE p.catid = $id_category ORDER BY RAND() LIMIT 0, $limit";
+        $db->setQuery($query);
+        $results = $db->loadAssocList();
+        if ($limit == self::MIN_LIMIT) {
+            $results = $db->loadAssoc();
         }
         return $results;
     }
 
-    public static function getProductFromCategory($id_category, $limit)
+
+    public static function getAllProducts($limit = self::MIN_LIMIT)
     {
-        if (!empty($limit)) {
-            $limit =
+        if (empty($limit)) {
+            $limit = self::DEFAULT_LIMIT;
         }
         $db = JFactory::getDbo();
-        $query = "SELECT * FROM #__phocagallery AS p WHERE p.catid = $id_category ORDER BY RAND()";
+        $query = "SELECT * FROM #__phocagallery AS p ORDER BY RAND() LIMIT 0, $limit";
         $db->setQuery($query);
+        $results = $db->loadAssocList();
+        if ($limit == self::MIN_LIMIT) {
+            $results = $db->loadAssoc();
+        }
+        return $results;
     }
     
 
@@ -65,24 +95,9 @@ class Util {
     {
         // Get default menu - JMenu object, look at JMenu api docs
         $menu = JFactory::getApplication()->getMenu();
-
         // Get menu items - array with menu items
         $items = $menu->getMenu();
-
         return $items;
-    }
-
-    /**
-     * @return mixed
-     * @since version
-     */
-    public static function getAllProducts()
-    {
-        $db = JFactory::getDbo();
-        $query = 'SELECT * from #__phocagallery order by `date` LIMIT 0,10';
-        $db->setQuery($query);
-        $results = $db->loadObjectList();
-        return $results;
     }
 
     /**
