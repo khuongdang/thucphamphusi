@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a656caa4-33c3-4582-9da1-e9e08649226c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configuration.php" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libraries/Util.php" beforeDir="false" afterPath="$PROJECT_DIR$/libraries/Util.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libraries/vendor/joomla/filter/src/OutputFilter.php" beforeDir="false" afterPath="$PROJECT_DIR$/libraries/vendor/joomla/filter/src/OutputFilter.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/os-basetemplate/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/os-basetemplate/index.php" afterDir="false" />
-    </list>
+    <list default="true" id="a656caa4-33c3-4582-9da1-e9e08649226c" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,16 +105,16 @@
         <entry file="file://$PROJECT_DIR$/libraries/Util.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="231">
-              <caret line="70" column="5" lean-forward="true" selection-start-line="70" selection-start-column="5" selection-end-line="70" selection-end-column="5" />
+              <caret line="70" column="5" selection-start-line="70" selection-start-column="5" selection-end-line="70" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/libraries/vendor/joomla/filter/src/OutputFilter.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="428">
-              <caret line="158" column="4" selection-start-line="158" selection-start-column="4" selection-end-line="158" selection-end-column="4" />
+            <state relative-caret-position="497">
+              <caret line="128" column="47" selection-start-line="128" selection-start-column="47" selection-end-line="128" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -134,11 +128,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/os-basetemplate/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="350" column="24" selection-start-line="350" selection-start-column="24" selection-end-line="350" selection-end-column="24" />
+            <state relative-caret-position="430">
+              <caret line="360" column="40" lean-forward="true" selection-start-line="360" selection-start-column="40" selection-end-line="360" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -156,7 +150,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>app</find>
       <find>hotcat</find>
       <find>administrator/components/com_phocagallery/views/phocagallerycs/view.html.php</find>
       <find>$tree[$iCT]-&gt;hot_cat</find>
@@ -186,6 +179,7 @@
       <find>$hot_categories</find>
       <find>die</find>
       <find>products</find>
+      <find>stringURLSafe</find>
     </findStrings>
     <replaceStrings>
       <replace>template</replace>
@@ -323,65 +317,6 @@
             <path>
               <item name="thucphamphusi" type="b2602c69:ProjectViewProjectNode" />
               <item name="thucphamphusi" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="thucphamphusi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="thucphamphusi" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="com_phocagallery" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="thucphamphusi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="thucphamphusi" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="com_phocagallery" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="thucphamphusi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="thucphamphusi" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="com_phocagallery" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="thucphamphusi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="thucphamphusi" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="com_phocagallery" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="category" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="thucphamphusi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="thucphamphusi" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="com_phocagallery" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="category" type="462c0819:PsiDirectoryNode" />
-              <item name="tmpl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="thucphamphusi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="thucphamphusi" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="com_phocagallery" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="detail" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="thucphamphusi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="thucphamphusi" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="com_phocagallery" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="detail" type="462c0819:PsiDirectoryNode" />
-              <item name="tmpl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="thucphamphusi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="thucphamphusi" type="462c0819:PsiDirectoryNode" />
               <item name="includes" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -452,18 +387,17 @@
       <workItem from="1540372674760" duration="81000" />
       <workItem from="1540382960243" duration="458000" />
       <workItem from="1540383434669" duration="6000" />
-      <workItem from="1540383460219" duration="3463000" />
+      <workItem from="1540383460219" duration="4071000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35971000" />
+    <option name="totallyTimeSpent" value="36579000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29264393" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29264393" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -812,24 +746,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/os-basetemplate/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="350" column="24" selection-start-line="350" selection-start-column="24" selection-end-line="350" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/libraries/Util.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
-          <caret line="70" column="5" lean-forward="true" selection-start-line="70" selection-start-column="5" selection-end-line="70" selection-end-column="5" />
+          <caret line="70" column="5" selection-start-line="70" selection-start-column="5" selection-end-line="70" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/libraries/vendor/joomla/filter/src/OutputFilter.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="428">
-          <caret line="158" column="4" selection-start-line="158" selection-start-column="4" selection-end-line="158" selection-end-column="4" />
+        <state relative-caret-position="497">
+          <caret line="128" column="47" selection-start-line="128" selection-start-column="47" selection-end-line="128" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/os-basetemplate/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="360" column="40" lean-forward="true" selection-start-line="360" selection-start-column="40" selection-end-line="360" selection-end-column="40" />
         </state>
       </provider>
     </entry>
