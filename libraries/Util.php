@@ -27,16 +27,33 @@ class Util {
      */
     public static function getHotCategories($ids = null)
     {
-        $where = '';
-        if (!empty($ids)) {
-            $where = ' WHERE catid IN ($ids)';
-        }
         $db = JFactory::getDbo();
-        $query = 'SELECT p.* FROM #__phocagallery_categories AS pc ' .
-                 'INNER JOIN #__phocagallery AS p ON pc.id = p.`catid` ' . $where . ' ORDER BY RAND() LIMIT 0,3';
+        $query = 'SELECT * FROM #__phocagallery_categories AS pc WHERE pc.hot_cat = 1 ORDER BY RAND()';
         $db->setQuery($query);
         $results = $db->loadObjectList();
         return $results;
+    }
+
+    public static function getProductFromHotCategories($limit)
+    {
+        $db = JFactory::getDbo();
+        $query = 'SELECT * FROM #__phocagallery AS pc WHERE pc.hot_cat = 1 ORDER BY RAND()';
+        $db->setQuery($query);
+        $results = $db->loadObject();
+        foreach (self::getHotCategories()) {
+
+        }
+        return $results;
+    }
+
+    public static function getProductFromCategory($id_category, $limit)
+    {
+        if (!empty($limit)) {
+            $limit =
+        }
+        $db = JFactory::getDbo();
+        $query = "SELECT * FROM #__phocagallery AS p WHERE p.catid = $id_category ORDER BY RAND()";
+        $db->setQuery($query);
     }
     
 
