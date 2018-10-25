@@ -14,7 +14,7 @@ class JConfig {
 	public $dbtype = 'mysqli';
 	public $host = 'localhost';
 	public $user = 'root';
-	public $password = '';
+	public $password = 'root';
 	public $db = 'phusi1';
 	public $dbprefix = 'tpps_';
 	public $live_site = '';
@@ -53,7 +53,7 @@ class JConfig {
 	public $sef = '1';
 	public $sef_rewrite = '0';
 	public $sef_suffix = '0';
-	public $unicodeslugs = '0';
+	public $unicodeslugs = '1';
 	public $feed_limit = '10';
 	public $feed_email = 'none';
 	public $log_path = '/Volumes/WORK-SOFT/ROOT/thucphamphusi/administrator/logs';
