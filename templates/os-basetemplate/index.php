@@ -1,306 +1,241 @@
-<?php
-$app = JFactory::getApplication();
-$doc = JFactory::getDocument();
-$user = JFactory::getUser();
-$templateparams = $app->getTemplate(true)->params;
-$this->language = $doc->language;
-$this->direction = $doc->direction;
-$hot_categories = Util::getHotCategories();
-
-// Social icons
-$soc = array(
-    "fa-twitter" => $this->params->get("twitter"),
-    "fa-facebook" => $this->params->get("facebook"),
-    "fa-flickr" => $this->params->get("flickr"),
-    "fa-linkedin" => $this->params->get("linkedin"),
-    "fa-youtube-play" => $this->params->get("youtube"),
-    "fa-pinterest" => $this->params->get("pinterest"),
-    "fa-google-plus" => $this->params->get("google"),
-    "fa-dribbble" => $this->params->get("dribbble"),
-    "fa-vimeo-square" => $this->params->get("vimeo"),
-    "fa-instagram" => $this->params->get("instagram"),
-    "fa-vk" => $this->params->get("vk"),
-);
-
-// count Modules
-$left = $this->countModules('SidebarLeft');
-$right = $this->countModules('SidebarRight');
-$search = $this->countModules('Search');
-$topmenu = $this->countModules('topMenu');
-$copyrights = $this->params->get("copyrights");
-
-// Add Stylesheets
-$doc->addStyleSheet($this->baseurl . "/templates/" . $this->template . "/bootstrap/css/bootstrap.css");
-$doc->addStyleSheet($this->baseurl . "/templates/" . $this->template . "/css/style.css");
-
-// Add Script
-$doc->addScript($this->baseurl . "/templates/" . $this->template . "/bootstrap/js/bootstrapOS.js");
-$doc->addScript($this->baseurl . "/templates/" . $this->template . "/javascript/custom.js");
-?>
-
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
 <!DOCTYPE html>
-<html xmlns="//www.w3.org/1999/xhtml" xml:lang="<?php echo $this->language; ?>" lang="<?php echo $this->language; ?>"
-      dir="<?php echo $this->direction; ?>">
+<html>
 <head>
+    <title>Big store a Ecommerce Online Shopping Category Flat Bootstrap Responsive Website Template| Home :: w3layouts</title>
+    <!-- for-mobile-apps -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script type="text/javascript"
-            src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/javascript/jquerOS.js"></script>
-    <script type="text/javascript"
-            src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/javascript/fronteditingOS.js"></script>
-    <script type="text/javascript">jQuerOs.noConflict();</script>
-    <link href='//fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic|Dosis:200,300,400,500,600,700,800|Abel|Droid+Sans:400,700|Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic|Lora:400,700,400italic,700italic|PT+Sans:400,700,400italic,700italic|PT+Sans+Narrow:400,700|Quicksand:300,400,700|Ubuntu:300,400,500,700,300italic,400italic,500italic,700italic|Lobster|Ubuntu+Condensed|Oxygen:400,300,700|Oswald:700,400,300|Open+Sans+Condensed:300,700,300italic|Roboto+Condensed:300italic,400italic,700italic,400,700,300|Open+Sans:300italic,400italic,600italic,700italic,800italic,800,700,400,600,300|Prosto+One|Francois+One|Comfortaa:700,300,400|Raleway:300,600,900,500,400,100,800,200,700|Roboto:300,700,500italic,900,300italic,400italic,900italic,100italic,100,500,400,700italic|Roboto+Slab:300,700,100,400|Share:700,700italic,400italic,400'
-          rel='stylesheet' type='text/css'
-    >
-    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
-
-    <?php if ($this->params->get('favicon_file') != ""): ?>
-
-        <link rel="shortcut icon" href="<?php echo $this->params->get('favicon_file') ?>"/>
-
-    <?php else: ?>
-        <link rel="shortcut icon"
-              href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/favicon.ico"/>
-    <?php endif; ?>
-
-    <jdoc:include type="head"/>
-
-    <script type="text/javascript"><?php echo $this->params->get('tracking_code') ?></script>
-    <!--[if IE 7]>
-    <link type="text/css" rel="stylesheet"
-          href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/css/style_ie7.css"/> <![endif]-->
-    <!--[if IE 8]>
-    <link type="text/css" rel="stylesheet"
-          href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/css/style_ie8.css"/> <![endif]-->
-    <!--[if IE 9]>
-    <link type="text/css" rel="stylesheet"
-          href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/css/style_ie9.css"/> <![endif]-->
-
-    <?php
-    require_once(JPATH_BASE . '/templates/' . $this->template .
-        '/template_details_style/template_details_style.inc.php');
-    ?>
-
-    <?php
-    if ($this->params->get('expand_preloader') !== "0") {
-        require_once(JPATH_BASE . '/templates/' . $this->template .
-            '/preloader/preloader_style.inc.php');
-    }
-    ?>
-
-    <?php
-    if ($this->params->get('expand_preloader') !== "0") {
-        require_once(JPATH_BASE . '/templates/' . $this->template .
-            '/preloader/preloader_script.inc.php');
-    }
-    ?>
-    <script type="text/javascript"
-            src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/javascript/move-top.js"></script>
-    <script type="text/javascript"
-            src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/javascript/easing.js"></script>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta property="og:title" content="Vide" />
+    <meta name="keywords" content="Big store Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template,
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+    <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+        function hideURLbar(){ window.scrollTo(0,1); } </script>
+    <!-- //for-mobile-apps -->
+    <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+    <!-- Custom Theme files -->
+    <link href="css/style.css" rel='stylesheet' type='text/css' />
+    <!-- js -->
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <!-- //js -->
+    <!-- start-smoth-scrolling -->
+    <script type="text/javascript" src="js/move-top.js"></script>
+    <script type="text/javascript" src="js/easing.js"></script>
     <script type="text/javascript">
-        jQuery(document).ready(function ($) {
-            $(".scroll").click(function (event) {
+        jQuery(document).ready(function($) {
+            $(".scroll").click(function(event){
                 event.preventDefault();
-                $('html,body').animate({scrollTop: $(this.hash).offset().top}, 1000);
+                $('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
             });
         });
     </script>
+    <!-- start-smoth-scrolling -->
+    <link href="css/font-awesome.css" rel="stylesheet">
+    <link href='//fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Noto+Sans:400,700' rel='stylesheet' type='text/css'>
+    <!--- start-rate---->
+    <script src="js/jstarbox.js"></script>
+    <link rel="stylesheet" href="css/jstarbox.css" type="text/css" media="screen" charset="utf-8" />
+    <script type="text/javascript">
+        jQuery(function() {
+            jQuery('.starbox').each(function() {
+                var starbox = jQuery(this);
+                starbox.starbox({
+                    average: starbox.attr('data-start-value'),
+                    changeable: starbox.hasClass('unchangeable') ? false : starbox.hasClass('clickonce') ? 'once' : true,
+                    ghosting: starbox.hasClass('ghosting'),
+                    autoUpdateAverage: starbox.hasClass('autoupdate'),
+                    buttons: starbox.hasClass('smooth') ? false : starbox.attr('data-button-count') || 5,
+                    stars: starbox.attr('data-star-count') || 5
+                }).bind('starbox-value-changed', function(event, value) {
+                    if(starbox.hasClass('random')) {
+                        var val = Math.random();
+                        starbox.next().text(' '+val);
+                        return val;
+                    }
+                })
+            });
+        });
+    </script>
+    <!---//End-rate---->
+
 </head>
-
 <body>
-<!--==============================================
-=            preloader html structure            =
-===============================================-->
-
-<?php
-if ($this->params->get('expand_preloader') !== "0") {
-    require_once(JPATH_BASE . '/templates/' . $this->template .
-        '/preloader/preloader_html.inc.php');
-}
-?>
-<?php
-Util::getAllProducts();
-?>
-<!--====  End of preloader html structure  ====-->
 <div class="header">
-    <div class="logo">
-        <img src="images/logo5.png"/>
-    </div>
-    <div class="nav-top">
-        <nav class="navbar navbar-default">
-            <div class="navbar-header nav_2">
-                <button type="button" class="navbar-toggle collapsed navbar-toggle1" data-toggle="collapse"
-                        data-target="#bs-megadropdown-tabs">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-            </div>
-            <?php
-            $all_menu_items = Util::getAllMenuItems();
-            ?>
-            <div class="collapse navbar-collapse" id="bs-megadropdown-tabs">
-                <ul class="nav navbar-nav ">
-                    <?php foreach ($all_menu_items as $menu) {
-
-                        $link = JRoute::_($menu->link . '&id ='. $menu->id);
-                        ?>
-                        <li><a href="<?php echo $link;?>" class="hyper "><span><?php echo $menu->title; ?></span></a></li>
-                    <?php } ?>
-                    <!--<li  class="dropdown active">
-                        <a href="#" class="dropdown-toggle  hyper" data-toggle="dropdown" ><span>Kitchen<b class="caret"></b></span></a>
-                        <ul class="dropdown-menu multi">
-                            <div class="row">
-                                <div class="col-sm-3">
-                                    <ul class="multi-column-dropdown">
-                                        <li><a href="kitchen.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Water & Beverages</a></li>
-                                        <li><a href="kitchen.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Fruits & Vegetables</a></li>
-                                        <li><a href="kitchen.html"> <i class="fa fa-angle-right" aria-hidden="true"></i>Staples</a></li>
-                                        <li><a href="kitchen.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Branded Food</a></li>
-
-                                    </ul>
-
-                                </div>
-                                <div class="col-sm-3">
-
-                                    <ul class="multi-column-dropdown">
-                                        <li><a href="kitchen.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Breakfast &amp; Cereal</a></li>
-                                        <li><a href="kitchen.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Snacks</a></li>
-                                        <li><a href="kitchen.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Spices</a></li>
-                                        <li><a href="kitchen.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Biscuit &amp; Cookie</a></li>
-                                        <li><a href="kitchen.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Sweets</a></li>
-
-                                    </ul>
-
-                                </div>
-                                <div class="col-sm-3">
-
-                                    <ul class="multi-column-dropdown">
-                                        <li><a href="kitchen.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Pickle & Condiment</a></li>
-                                        <li><a href="kitchen.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Instant Food</a></li>
-                                        <li><a href="kitchen.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Dry Fruit</a></li>
-                                        <li><a href="kitchen.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Tea &amp; Coffee</a></li>
-
-                                    </ul>
-                                </div>
-                                <div class="col-sm-3 w3l">
-                                    <a href="kitchen.html"><img src="images/me.png" class="img-responsive" alt=""></a>
-                                </div>
-                                <div class="clearfix"></div>
-                            </div>
-                        </ul>
-                    </li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle hyper" data-toggle="dropdown" ><span> Personal Care <b class="caret"></b></span></a>
-                        <ul class="dropdown-menu multi multi1">
-                            <div class="row">
-                                <div class="col-sm-3">
-                                    <ul class="multi-column-dropdown">
-                                        <li><a href="care.html"><i class="fa fa-angle-right" aria-hidden="true"></i> Ayurvedic </a></li>
-                                        <li><a href="care.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Baby Care</a></li>
-                                        <li><a href="care.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Cosmetics</a></li>
-                                        <li><a href="care.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Deo & Purfumes</a></li>
-
-                                    </ul>
-
-                                </div>
-                                <div class="col-sm-3">
-
-                                    <ul class="multi-column-dropdown">
-                                        <li><a href="care.html"> <i class="fa fa-angle-right" aria-hidden="true"></i>Hair Care </a></li>
-                                        <li><a href="care.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Oral Care</a></li>
-                                        <li><a href="care.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Personal Hygiene</a></li>
-                                        <li><a href="care.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Skin care</a></li>
-
-                                    </ul>
-
-                                </div>
-                                <div class="col-sm-3">
-
-                                    <ul class="multi-column-dropdown">
-                                        <li><a href="care.html"><i class="fa fa-angle-right" aria-hidden="true"></i> Fashion Accessories </a></li>
-                                        <li><a href="care.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Grooming Tools</a></li>
-                                        <li><a href="care.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Shaving Need</a></li>
-                                        <li><a href="care.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Sanitary Needs</a></li>
-
-                                    </ul>
-                                </div>
-                                <div class="col-sm-3 w3l">
-                                    <a href="care.html"><img src="images/me1.png" class="img-responsive" alt=""></a>
-                                </div>
-                                <div class="clearfix"></div>
-                            </div>
-                        </ul>
-                    </li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle hyper" data-toggle="dropdown" ><span>Household<b class="caret"></b></span></a>
-                        <ul class="dropdown-menu multi multi2">
-                            <div class="row">
-                                <div class="col-sm-3">
-                                    <ul class="multi-column-dropdown">
-                                        <li><a href="hold.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Cleaning Accessories</a></li>
-                                        <li><a href="hold.html"><i class="fa fa-angle-right" aria-hidden="true"></i>CookWear</a></li>
-                                        <li><a href="hold.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Detergents</a></li>
-                                        <li><a href="hold.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Gardening Needs</a></li>
-
-                                    </ul>
-
-                                </div>
-                                <div class="col-sm-3">
-
-                                    <ul class="multi-column-dropdown">
-                                        <li><a href="hold.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Kitchen & Dining</a></li>
-                                        <li><a href="hold.html"><i class="fa fa-angle-right" aria-hidden="true"></i>KitchenWear</a></li>
-                                        <li><a href="hold.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Pet Care</a></li>
-                                        <li><a href="hold.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Plastic Wear</a></li>
-
-                                    </ul>
-
-                                </div>
-                                <div class="col-sm-3">
-
-                                    <ul class="multi-column-dropdown">
-                                        <li><a href="hold.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Pooja Needs</a></li>
-                                        <li><a href="hold.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Serveware</a></li>
-                                        <li><a href="hold.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Safety Accessories</a></li>
-                                        <li><a href="hold.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Festive Decoratives </a></li>
-
-                                    </ul>
-                                </div>
-                                <div class="col-sm-3 w3l">
-                                    <a href="hold.html"><img src="images/me2.png" class="img-responsive" alt=""></a>
-                                </div>
-                                <div class="clearfix"></div>
-                            </div>
-                        </ul>
-                    </li>
-                    <li><a href="codes.html" class="hyper"> <span>Codes</span></a></li>
-                    <li><a href="contact.html" class="hyper"><span>Contact Us</span></a></li>-->
-                </ul>
-            </div>
-        </nav>
-        <div class="clearfix"></div>
-    </div>
     <div class="container">
-        <div class="header-ri">
-            <ul class="social-top">
-                <li><a href="#" class="icon facebook"><i class="fa fa-facebook" aria-hidden="true"></i><span></span></a>
-                </li>
-                <li><a href="#" class="icon twitter"><i class="fa fa-twitter" aria-hidden="true"></i><span></span></a>
-                </li>
-                <li><a href="#" class="icon pinterest"><i class="fa fa-pinterest-p" aria-hidden="true"></i><span></span></a>
-                </li>
-                <li><a href="#" class="icon dribbble"><i class="fa fa-dribbble" aria-hidden="true"></i><span></span></a>
-                </li>
-            </ul>
+        <div class="logo">
+            <img src="images/logo5.png"/>
         </div>
+        <div class="nav-top">
+            <nav class="navbar navbar-default">
+                <div class="navbar-header nav_2">
+                    <button type="button" class="navbar-toggle collapsed navbar-toggle1" data-toggle="collapse" data-target="#bs-megadropdown-tabs">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <?php
+                    $all_menu_items = Util::getAllMenuItems();
+                ?>
+                <div class="collapse navbar-collapse" id="bs-megadropdown-tabs">
+                    <ul class="nav navbar-nav ">
+                        <?php foreach ($all_menu_items as $menu) {
+                            $link = JRoute::_($menu->link);
+                            ?>
+                            <li><a  href="<?php echo $link;?>" class="hyper "><span><?php echo $menu->title; ?></span></a></li>
+                        <?php } ?>
+                        <!--<li  class="dropdown active">
+                            <a href="#" class="dropdown-toggle  hyper" data-toggle="dropdown" ><span>Kitchen<b class="caret"></b></span></a>
+                            <ul class="dropdown-menu multi">
+                                <div class="row">
+                                    <div class="col-sm-3">
+                                        <ul class="multi-column-dropdown">
+                                            <li><a href="kitchen.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Water & Beverages</a></li>
+                                            <li><a href="kitchen.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Fruits & Vegetables</a></li>
+                                            <li><a href="kitchen.html"> <i class="fa fa-angle-right" aria-hidden="true"></i>Staples</a></li>
+                                            <li><a href="kitchen.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Branded Food</a></li>
+
+                                        </ul>
+
+                                    </div>
+                                    <div class="col-sm-3">
+
+                                        <ul class="multi-column-dropdown">
+                                            <li><a href="kitchen.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Breakfast &amp; Cereal</a></li>
+                                            <li><a href="kitchen.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Snacks</a></li>
+                                            <li><a href="kitchen.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Spices</a></li>
+                                            <li><a href="kitchen.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Biscuit &amp; Cookie</a></li>
+                                            <li><a href="kitchen.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Sweets</a></li>
+
+                                        </ul>
+
+                                    </div>
+                                    <div class="col-sm-3">
+
+                                        <ul class="multi-column-dropdown">
+                                            <li><a href="kitchen.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Pickle & Condiment</a></li>
+                                            <li><a href="kitchen.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Instant Food</a></li>
+                                            <li><a href="kitchen.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Dry Fruit</a></li>
+                                            <li><a href="kitchen.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Tea &amp; Coffee</a></li>
+
+                                        </ul>
+                                    </div>
+                                    <div class="col-sm-3 w3l">
+                                        <a href="kitchen.html"><img src="images/me.png" class="img-responsive" alt=""></a>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                </div>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle hyper" data-toggle="dropdown" ><span> Personal Care <b class="caret"></b></span></a>
+                            <ul class="dropdown-menu multi multi1">
+                                <div class="row">
+                                    <div class="col-sm-3">
+                                        <ul class="multi-column-dropdown">
+                                            <li><a href="care.html"><i class="fa fa-angle-right" aria-hidden="true"></i> Ayurvedic </a></li>
+                                            <li><a href="care.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Baby Care</a></li>
+                                            <li><a href="care.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Cosmetics</a></li>
+                                            <li><a href="care.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Deo & Purfumes</a></li>
+
+                                        </ul>
+
+                                    </div>
+                                    <div class="col-sm-3">
+
+                                        <ul class="multi-column-dropdown">
+                                            <li><a href="care.html"> <i class="fa fa-angle-right" aria-hidden="true"></i>Hair Care </a></li>
+                                            <li><a href="care.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Oral Care</a></li>
+                                            <li><a href="care.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Personal Hygiene</a></li>
+                                            <li><a href="care.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Skin care</a></li>
+
+                                        </ul>
+
+                                    </div>
+                                    <div class="col-sm-3">
+
+                                        <ul class="multi-column-dropdown">
+                                            <li><a href="care.html"><i class="fa fa-angle-right" aria-hidden="true"></i> Fashion Accessories </a></li>
+                                            <li><a href="care.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Grooming Tools</a></li>
+                                            <li><a href="care.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Shaving Need</a></li>
+                                            <li><a href="care.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Sanitary Needs</a></li>
+
+                                        </ul>
+                                    </div>
+                                    <div class="col-sm-3 w3l">
+                                        <a href="care.html"><img src="images/me1.png" class="img-responsive" alt=""></a>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                </div>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle hyper" data-toggle="dropdown" ><span>Household<b class="caret"></b></span></a>
+                            <ul class="dropdown-menu multi multi2">
+                                <div class="row">
+                                    <div class="col-sm-3">
+                                        <ul class="multi-column-dropdown">
+                                            <li><a href="hold.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Cleaning Accessories</a></li>
+                                            <li><a href="hold.html"><i class="fa fa-angle-right" aria-hidden="true"></i>CookWear</a></li>
+                                            <li><a href="hold.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Detergents</a></li>
+                                            <li><a href="hold.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Gardening Needs</a></li>
+
+                                        </ul>
+
+                                    </div>
+                                    <div class="col-sm-3">
+
+                                        <ul class="multi-column-dropdown">
+                                            <li><a href="hold.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Kitchen & Dining</a></li>
+                                            <li><a href="hold.html"><i class="fa fa-angle-right" aria-hidden="true"></i>KitchenWear</a></li>
+                                            <li><a href="hold.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Pet Care</a></li>
+                                            <li><a href="hold.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Plastic Wear</a></li>
+
+                                        </ul>
+
+                                    </div>
+                                    <div class="col-sm-3">
+
+                                        <ul class="multi-column-dropdown">
+                                            <li><a href="hold.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Pooja Needs</a></li>
+                                            <li><a href="hold.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Serveware</a></li>
+                                            <li><a href="hold.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Safety Accessories</a></li>
+                                            <li><a href="hold.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Festive Decoratives </a></li>
+
+                                        </ul>
+                                    </div>
+                                    <div class="col-sm-3 w3l">
+                                        <a href="hold.html"><img src="images/me2.png" class="img-responsive" alt=""></a>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                </div>
+                            </ul>
+                        </li>
+                        <li><a href="codes.html" class="hyper"> <span>Codes</span></a></li>
+                        <li><a href="contact.html" class="hyper"><span>Contact Us</span></a></li>-->
+                    </ul>
+                </div>
+            </nav>
+            <div class="clearfix"></div>
+        </div>
+
     </div>
 </div>
 <!---->
 
+<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.1.min.js"><\/script>')</script>
+<script src="js/jquery.vide.min.js"></script>
+</div>
+
 <!-- Carousel
-================================================== -->
+  ================================================== -->
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <!-- Indicators -->
     <ol class="carousel-indicators">
@@ -310,7 +245,7 @@ Util::getAllProducts();
     </ol>
     <div class="carousel-inner" role="listbox">
         <div class="item active">
-            <a href="kitchen.html"><img class="first-slide" src="images/ba.jpg" alt="First slide"></a>
+            <a href="kitchen.html"> <img class="first-slide" src="images/ba.jpg" alt="First slide"></a>
 
         </div>
         <div class="item">
@@ -324,103 +259,74 @@ Util::getAllProducts();
     </div>
 
 </div><!-- /.carousel -->
-
-<!--content-->
-<div class="kic-top ">
-    <div class="container ">
-        <div class="kic ">
-            <h3>Sản phẩm bán chạy</h3>
-
-        </div>
-        <?php
-        foreach ($hot_categories as $obj) {
-            $file_name = Util::getFileOriginal($obj['product_info']['filename'], 1);
-            ?>
-            <div class="col-md-4 kic-top1">
-                <a href="">
-                    <img src="<?php echo $file_name; ?>" class="img-responsive" alt="">
-                </a>
-                <h6>Dal</h6>
-                <p>Nam libero tempore</p>
-            </div>
-        <?php } ?>
-    </div>
-</div>
-
-<!--content-->
-<div class="product">
-    <div class="container">
-        <div class="spec ">
-            <h3>Sản phẩm</h3>
-            <div class="ser-t">
-                <b></b>
-                <span><i></i></span>
-                <b class="line"></b>
-            </div>
-        </div>
-        <div class=" con-w3l agileinf">
-            <?php
-            $all_products = Util::getAllProducts(20);
-            if (!empty($all_products)) {
-                foreach ($all_products as $index => $obj_product) {
-                    $file_name = Util::getFileOriginal($obj_product['filename'], 1);
-                    ?>
-                    <div class="col-md-3 pro-1">
-                        <div class="col-m">
-                            <a href="#" data-toggle="modal" data-target="#myModal<?php echo $index; ?>"
-                               class="offer-img">
-                                <img src="<?php echo $file_name; ?>" class="img-responsive" alt="">
-                            </a>
-                            <div class="mid-1">
-                                <div class="women">
-                                    <h6><a href="single.html"><?php echo $obj_product['title']; ?></h6>
-                                </div>
-                                <!--<div class="mid-2">
-                                    <p><label>$7.00</label><em class="item_price">$6.00</em></p>
-                                    <div class="block">
-                                        <div class="starbox small ghosting"></div>
-                                    </div>
-                                    <div class="clearfix"></div>
-                                </div>-->
-                            </div>
-                        </div>
-                    </div>
-                <?php }
-            }
-            ?>
-            <div class="clearfix"></div>
-        </div>
-    </div>
-</div>
+<jdoc:include type="message" />
+<jdoc:include type="component" />
 <!--footer-->
 <div class="footer">
     <div class="container">
+        <div class="col-md-3 footer-grid">
+            <h3>About Us</h3>
+            <p>Nam libero tempore, cum soluta nobis est eligendi
+                optio cumque nihil impedit quo minus id quod maxime
+                placeat facere possimus.</p>
+        </div>
+        <div class="col-md-3 footer-grid ">
+            <h3>Menu</h3>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="kitchen.html">Kitchen</a></li>
+                <li><a href="care.html">Personal Care</a></li>
+                <li><a href="hold.html">Household</a></li>
+                <li><a href="codes.html">Short Codes</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <div class="col-md-3 footer-grid ">
+            <h3>Customer Services</h3>
+            <ul>
+                <li><a href="shipping.html">Shipping</a></li>
+                <li><a href="terms.html">Terms & Conditions</a></li>
+                <li><a href="faqs.html">Faqs</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="offer.html">Online Shopping</a></li>
+
+            </ul>
+        </div>
+        <div class="col-md-3 footer-grid">
+            <h3>My Account</h3>
+            <ul>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="register.html">Register</a></li>
+                <li><a href="wishlist.html">Wishlist</a></li>
+
+            </ul>
+        </div>
+        <div class="clearfix"></div>
         <div class="footer-bottom">
-            <h2><a href="index.html"><img src="images/logo6.png"/></a></h2>
-            <p class="fo-para">Nhà Phân Phối Phú Sĩ tự hào là một trong những nhà phân phối thực phẩm Hàn Quốc hàng đầu
-                tại Việt Nam.</p>
+            <h2 ><a href="index.html"><b>T<br>H<br>E</b>Big Store<span>The Best Supermarket</span></a></h2>
+            <p class="fo-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris</p>
             <ul class="social-fo">
                 <li><a href="#" class=" face"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                <li><a href="#" class=" twi"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                <li><a href="#" class=" pin"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a></li>
+                <li><a href="#" class=" dri"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
             </ul>
             <div class=" address">
                 <div class="col-md-4 fo-grid1">
                     <p><i class="fa fa-home" aria-hidden="true"></i>12K Street , 45 Building Road Canada.</p>
                 </div>
                 <div class="col-md-4 fo-grid1">
-                    <p><i class="fa fa-phone" aria-hidden="true"></i>+84 903 825 315</p>
+                    <p><i class="fa fa-phone" aria-hidden="true"></i>+1234 758 839 , +1273 748 730</p>
                 </div>
                 <div class="col-md-4 fo-grid1">
-                    <p><a href="mailto:phusi68@yahoo.com.vn"><i class="fa fa-envelope-o" aria-hidden="true"></i>phusi68@yahoo.com.vn
-                        </a>
-                    </p>
+                    <p><a href="mailto:info@example.com"><i class="fa fa-envelope-o" aria-hidden="true"></i>info@example1.com</a></p>
                 </div>
                 <div class="clearfix"></div>
 
             </div>
         </div>
         <div class="copy-right">
-            <p> &copy; <?php echo date('Y'); ?> nhaphanphoiphusi.com. All Rights Reserved | Design by <a
-                        href="http://allbest4u.website/">All Best For U</a></p>
+            <p> &copy; 2016 Big store. All Rights Reserved | Design by  <a href="http://w3layouts.com/"> W3layouts</a></p>
         </div>
     </div>
 </div>
@@ -428,7 +334,7 @@ Util::getAllProducts();
 
 <!-- smooth scrolling -->
 <script type="text/javascript">
-    jQuery(document).ready(function () {
+    $(document).ready(function() {
         /*
             var defaults = {
             containerID: 'toTop', // fading element id
@@ -437,58 +343,54 @@ Util::getAllProducts();
             easingType: 'linear'
             };
         */
-        jQuery().UItoTop({easingType: 'easeOutQuart'});
+        $().UItoTop({ easingType: 'easeOutQuart' });
     });
 </script>
 <a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
 <!-- //smooth scrolling -->
+<!-- for bootstrap working -->
+<script src="js/bootstrap.js"></script>
+<!-- //for bootstrap working -->
+<script type='text/javascript' src="js/jquery.mycart.js"></script>
+<script type="text/javascript">
+    $(function () {
 
-<?php
-if (!empty($all_products)) {
-    foreach ($all_products as $index => $obj_product) {
-        $file_name = Util::getFileOriginal($obj_product['filename'], 1);
-        ?>
-        <!-- product -->
-        <div class="modal fade" id="myModal<?php echo $index; ?>" tabindex="-1" role="dialog"
-             aria-labelledby="myModalLabel">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content modal-info">
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
-                                    aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <div class="modal-body modal-spa">
-                        <div class="col-md-5 span-2">
-                            <div class="item">
-                                <img src="<?php echo $file_name; ?>" class="img-responsive" alt="">
-                            </div>
-                        </div>
-                        <div class="col-md-7 span-1 ">
-                            <h3><?php echo $obj_product['title']; ?></h3>
-                            <p class="in-para">Sản phẩm chỉ có duy nhất tại nhaphanphoiphusi.com</p>
-                            <!--<div class="price_single">
-                                <span class="reducedfrom ">0903 825 315</span>
-                                <div class="clearfix"></div>
-                            </div>-->
-                            <h4 class="quick">Chi tiết sản phẩm:</h4>
-                            <p class="quick_desc"> Vui lòng gọi điện thoại:</p>
-                            <div><img src="images/phone.png" /> <span class="mobile_ic">0903 825 315</span></div>
-                            <p class="quick_desc"> Hoặc gửi email: </p>
-                            <div><img src="images/email.png" /> <a href="mailto:phusi68@yahoo.com.vn" class="email_ic">phusi68@yahoo.com.vn</a></div>
-                            <!--<div class="add-to">
-                                <button class="btn btn-danger my-cart-btn my-cart-btn1 " data-id="24" data-name="Wheat"
-                                        data-summary="summary 24" data-price="1.50" data-quantity="1"
-                                        data-image="images/of24.png">Add to Cart
-                                </button>
-                            </div>-->
-                        </div>
-                        <div class="clearfix"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    <?php } ?>
-<?php } ?>
+        var goToCartIcon = function($addTocartBtn){
+            var $cartIcon = $(".my-cart-icon");
+            var $image = $('<img width="30px" height="30px" src="' + $addTocartBtn.data("image") + '"/>').css({"position": "fixed", "z-index": "999"});
+            $addTocartBtn.prepend($image);
+            var position = $cartIcon.position();
+            $image.animate({
+                top: position.top,
+                left: position.left
+            }, 500 , "linear", function() {
+                $image.remove();
+            });
+        }
+
+        $('.my-cart-btn').myCart({
+            classCartIcon: 'my-cart-icon',
+            classCartBadge: 'my-cart-badge',
+            affixCartIcon: true,
+            checkoutCart: function(products) {
+                $.each(products, function(){
+                    console.log(this);
+                });
+            },
+            clickOnAddToCart: function($addTocart){
+                goToCartIcon($addTocart);
+            },
+            getDiscountPrice: function(products) {
+                var total = 0;
+                $.each(products, function(){
+                    total += this.quantity * this.price;
+                });
+                return total * 1;
+            }
+        });
+
+    });
+</script>
+
 </body>
 </html>

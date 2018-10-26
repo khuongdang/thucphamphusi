@@ -1,0 +1,10 @@
+<fields name="request">
+    <fieldset name="request">
+        <field name="cat_id" type="hidden"
+               label="Cat Id"
+               required=""
+               description=""
+               default="default-value"
+        />
+    </fieldset>
+</fields>

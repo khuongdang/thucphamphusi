@@ -1,8 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <metadata>
-	<layout title="COM_PRODUCTS_TITLE_LIST_VIEW_PRODUCTS" option="View">
+    <layout title="COM_PRODUCTS_TITLE_LIST_VIEW_PRODUCTS" option="View">
         <message>
-                        <![CDATA[COM_PRODUCTS_TITLE_LIST_VIEW_PRODUCTS_DESC]]>
+            <![CDATA[COM_PRODUCTS_TITLE_LIST_VIEW_PRODUCTS_DESC]]>
         </message>
-	</layout>
+    </layout>
+    <fields name="request">
+        <fieldset
+                name="request"
+                addfieldpath="/administrator/components/com_realestate/models/fields"
+        >
+            <field
+                    name="id"
+                    type="marketlist"
+                    label="Select a Market"
+                    description="Select a Market"
+            >
+                <option value="0">All Markets</option>
+                <option value="1">Bánh HQ</option>
+                <option value="2">Kẹo HQ</option>
+                <option value="3">Mì HQ</option>
+            </field>
+        </fieldset>
+    </fields>
 </metadata>
