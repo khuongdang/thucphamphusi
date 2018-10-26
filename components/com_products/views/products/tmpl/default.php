@@ -15,9 +15,9 @@
                     <div id="picture-frame">
                         <img src="images/si.jpg" data-src="images/si-1.jpg" alt="" class="img-responsive"/>
                     </div>
-                    <script src="<?php echo $this->baseurl; ?>/templates/<?php echo $this->template; ?>javascript/jquery.zoomtoo.js"></script>
+                    <script src="js/jquery.zoomtoo.js"></script>
                     <script>
-                        jQuery(function ($) {
+                        $(function () {
                             $("#picture-frame").zoomToo({
                                 magnify: 1
                             });
