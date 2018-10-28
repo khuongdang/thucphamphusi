@@ -2,8 +2,243 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a656caa4-33c3-4582-9da1-e9e08649226c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-gao-hq/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-gao-hq/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-gao-hq/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-gao-hq/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-gao-hq/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-gao-hq/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-gao-hq/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-gao-hq/8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-gao-hq/thumbs/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-gao-hq/thumbs/phoca_thumb_l_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-gao-hq/thumbs/phoca_thumb_l_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-gao-hq/thumbs/phoca_thumb_l_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-gao-hq/thumbs/phoca_thumb_l_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-gao-hq/thumbs/phoca_thumb_l_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-gao-hq/thumbs/phoca_thumb_l_6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-gao-hq/thumbs/phoca_thumb_l_7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-gao-hq/thumbs/phoca_thumb_l_8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-gao-hq/thumbs/phoca_thumb_m_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-gao-hq/thumbs/phoca_thumb_m_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-gao-hq/thumbs/phoca_thumb_m_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-gao-hq/thumbs/phoca_thumb_m_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-gao-hq/thumbs/phoca_thumb_m_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-gao-hq/thumbs/phoca_thumb_m_6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-gao-hq/thumbs/phoca_thumb_m_7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-gao-hq/thumbs/phoca_thumb_m_8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-gao-hq/thumbs/phoca_thumb_s_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-gao-hq/thumbs/phoca_thumb_s_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-gao-hq/thumbs/phoca_thumb_s_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-gao-hq/thumbs/phoca_thumb_s_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-gao-hq/thumbs/phoca_thumb_s_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-gao-hq/thumbs/phoca_thumb_s_6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-gao-hq/thumbs/phoca_thumb_s_7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-gao-hq/thumbs/phoca_thumb_s_8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-ngot-hq/1. nc soda sa hq 250ml - 8801056154011 .jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-ngot-hq/2. nc soda sa hq 250ml - 8801056154011 .jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-ngot-hq/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-ngot-hq/thumbs/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-ngot-hq/thumbs/phoca_thumb_l_1. nc soda sa hq 250ml - 8801056154011 .jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-ngot-hq/thumbs/phoca_thumb_l_2. nc soda sa hq 250ml - 8801056154011 .jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-ngot-hq/thumbs/phoca_thumb_m_1. nc soda sa hq 250ml - 8801056154011 .jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-ngot-hq/thumbs/phoca_thumb_m_2. nc soda sa hq 250ml - 8801056154011 .jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-ngot-hq/thumbs/phoca_thumb_s_1. nc soda sa hq 250ml - 8801056154011 .jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-ngot-hq/thumbs/phoca_thumb_s_2. nc soda sa hq 250ml - 8801056154011 .jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-ngot-tl/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-ngot-tl/10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-ngot-tl/11. nc da ht  thi 290ml - 8850004093773.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-ngot-tl/12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-ngot-tl/2. nc nho en ht  thi 290ml - 8850004093841.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-ngot-tl/3. nc coctail ht  thi 290ml - 8850004092141.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-ngot-tl/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-ngot-tl/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-ngot-tl/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-ngot-tl/7. nc nho trng ht  thi 290ml - 8850004092318.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-ngot-tl/8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-ngot-tl/9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-ngot-tl/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-ngot-tl/thumbs/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-ngot-tl/thumbs/phoca_thumb_l_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-ngot-tl/thumbs/phoca_thumb_l_10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-ngot-tl/thumbs/phoca_thumb_l_11. nc da ht  thi 290ml - 8850004093773.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-ngot-tl/thumbs/phoca_thumb_l_12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-ngot-tl/thumbs/phoca_thumb_l_2. nc nho en ht  thi 290ml - 8850004093841.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-ngot-tl/thumbs/phoca_thumb_l_3. nc coctail ht  thi 290ml - 8850004092141.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-ngot-tl/thumbs/phoca_thumb_l_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-ngot-tl/thumbs/phoca_thumb_l_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-ngot-tl/thumbs/phoca_thumb_l_6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-ngot-tl/thumbs/phoca_thumb_l_7. nc nho trng ht  thi 290ml - 8850004092318.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-ngot-tl/thumbs/phoca_thumb_l_8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-ngot-tl/thumbs/phoca_thumb_l_9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-ngot-tl/thumbs/phoca_thumb_m_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-ngot-tl/thumbs/phoca_thumb_m_10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-ngot-tl/thumbs/phoca_thumb_m_11. nc da ht  thi 290ml - 8850004093773.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-ngot-tl/thumbs/phoca_thumb_m_12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-ngot-tl/thumbs/phoca_thumb_m_2. nc nho en ht  thi 290ml - 8850004093841.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-ngot-tl/thumbs/phoca_thumb_m_3. nc coctail ht  thi 290ml - 8850004092141.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-ngot-tl/thumbs/phoca_thumb_m_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-ngot-tl/thumbs/phoca_thumb_m_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-ngot-tl/thumbs/phoca_thumb_m_6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-ngot-tl/thumbs/phoca_thumb_m_7. nc nho trng ht  thi 290ml - 8850004092318.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-ngot-tl/thumbs/phoca_thumb_m_8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-ngot-tl/thumbs/phoca_thumb_m_9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-ngot-tl/thumbs/phoca_thumb_s_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-ngot-tl/thumbs/phoca_thumb_s_10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-ngot-tl/thumbs/phoca_thumb_s_11. nc da ht  thi 290ml - 8850004093773.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-ngot-tl/thumbs/phoca_thumb_s_12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-ngot-tl/thumbs/phoca_thumb_s_2. nc nho en ht  thi 290ml - 8850004093841.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-ngot-tl/thumbs/phoca_thumb_s_3. nc coctail ht  thi 290ml - 8850004092141.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-ngot-tl/thumbs/phoca_thumb_s_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-ngot-tl/thumbs/phoca_thumb_s_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-ngot-tl/thumbs/phoca_thumb_s_6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-ngot-tl/thumbs/phoca_thumb_s_7. nc nho trng ht  thi 290ml - 8850004092318.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-ngot-tl/thumbs/phoca_thumb_s_8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-ngot-tl/thumbs/phoca_thumb_s_9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-tangluc-tl/1. nc tng lc thi redbull 250ml - 8850228000151.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-tangluc-tl/2. nc tng lc thi redbull 250ml - 8850228000151.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-tangluc-tl/3. nc tng lc thi tru xanh 250ml - 8855790000028.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-tangluc-tl/4. nc tng lc thi tru xanh 250ml - 8855790000028.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-tangluc-tl/5. nc tng lc thi commando 250ml - 8853647000108.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-tangluc-tl/6. nc tng lc thi commando 250ml - 8853647000108.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-tangluc-tl/7. nc mirinda thi 330ml - 8846000010050.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-tangluc-tl/8. nc mirinda thi 330ml - 8846000010050.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-tangluc-tl/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-tangluc-tl/thumbs/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-tangluc-tl/thumbs/phoca_thumb_l_1. nc tng lc thi redbull 250ml - 8850228000151.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-tangluc-tl/thumbs/phoca_thumb_l_2. nc tng lc thi redbull 250ml - 8850228000151.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-tangluc-tl/thumbs/phoca_thumb_l_3. nc tng lc thi tru xanh 250ml - 8855790000028.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-tangluc-tl/thumbs/phoca_thumb_l_4. nc tng lc thi tru xanh 250ml - 8855790000028.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-tangluc-tl/thumbs/phoca_thumb_l_5. nc tng lc thi commando 250ml - 8853647000108.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-tangluc-tl/thumbs/phoca_thumb_l_6. nc tng lc thi commando 250ml - 8853647000108.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-tangluc-tl/thumbs/phoca_thumb_l_7. nc mirinda thi 330ml - 8846000010050.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-tangluc-tl/thumbs/phoca_thumb_l_8. nc mirinda thi 330ml - 8846000010050.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-tangluc-tl/thumbs/phoca_thumb_m_1. nc tng lc thi redbull 250ml - 8850228000151.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-tangluc-tl/thumbs/phoca_thumb_m_2. nc tng lc thi redbull 250ml - 8850228000151.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-tangluc-tl/thumbs/phoca_thumb_m_3. nc tng lc thi tru xanh 250ml - 8855790000028.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-tangluc-tl/thumbs/phoca_thumb_m_4. nc tng lc thi tru xanh 250ml - 8855790000028.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-tangluc-tl/thumbs/phoca_thumb_m_5. nc tng lc thi commando 250ml - 8853647000108.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-tangluc-tl/thumbs/phoca_thumb_m_6. nc tng lc thi commando 250ml - 8853647000108.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-tangluc-tl/thumbs/phoca_thumb_m_7. nc mirinda thi 330ml - 8846000010050.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-tangluc-tl/thumbs/phoca_thumb_m_8. nc mirinda thi 330ml - 8846000010050.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-tangluc-tl/thumbs/phoca_thumb_s_1. nc tng lc thi redbull 250ml - 8850228000151.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-tangluc-tl/thumbs/phoca_thumb_s_2. nc tng lc thi redbull 250ml - 8850228000151.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-tangluc-tl/thumbs/phoca_thumb_s_3. nc tng lc thi tru xanh 250ml - 8855790000028.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-tangluc-tl/thumbs/phoca_thumb_s_4. nc tng lc thi tru xanh 250ml - 8855790000028.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-tangluc-tl/thumbs/phoca_thumb_s_5. nc tng lc thi commando 250ml - 8853647000108.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-tangluc-tl/thumbs/phoca_thumb_s_6. nc tng lc thi commando 250ml - 8853647000108.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-tangluc-tl/thumbs/phoca_thumb_s_7. nc mirinda thi 330ml - 8846000010050.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-tangluc-tl/thumbs/phoca_thumb_s_8. nc mirinda thi 330ml - 8846000010050.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-traicay-tl/1.nc chaba sa chui thi 230ml - 8854761394319.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-traicay-tl/10.nc chaba sa du thi 230ml - 8854761294312.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-traicay-tl/11.nc chaba nho nha am thi 230ml - 8854761364312.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-traicay-tl/12.nc chaba nho nha am thi 230ml - 8854761364312.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-traicay-tl/13.nc chaba xoi thi 230ml - 8854761174010.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-traicay-tl/14.nc chaba xoi thi 230ml - 8854761174010.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-traicay-tl/15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-traicay-tl/16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-traicay-tl/17.nc chaba me thi 230ml - 8854761274314.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-traicay-tl/18.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-traicay-tl/19.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-traicay-tl/2.nc chaba sa chui thi 230ml - 8854761394319.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-traicay-tl/20.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-traicay-tl/21.nc chaba da li thi 230ml - 8854761304011.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-traicay-tl/22.nc chaba da li thi 230ml - 8854761304011.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-traicay-tl/3.nc chaba i thi 230ml - 8854761994229.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-traicay-tl/4.nc chaba i thi 230ml - 8854761994229.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-traicay-tl/5.nc chaba hnh nhn thi 230ml - 8854761994205.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-traicay-tl/6.nc chaba hnh nhn thi 230ml - 8854761994205.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-traicay-tl/7.nc chaba da non thi 230ml - 8854761184019.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-traicay-tl/8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-traicay-tl/9.nc chaba sa du thi 230ml - 8854761294312.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-traicay-tl/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-traicay-tl/thumbs/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-traicay-tl/thumbs/phoca_thumb_l_1.nc chaba sa chui thi 230ml - 8854761394319.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-traicay-tl/thumbs/phoca_thumb_l_10.nc chaba sa du thi 230ml - 8854761294312.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-traicay-tl/thumbs/phoca_thumb_l_11.nc chaba nho nha am thi 230ml - 8854761364312.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-traicay-tl/thumbs/phoca_thumb_l_12.nc chaba nho nha am thi 230ml - 8854761364312.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-traicay-tl/thumbs/phoca_thumb_l_13.nc chaba xoi thi 230ml - 8854761174010.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-traicay-tl/thumbs/phoca_thumb_l_14.nc chaba xoi thi 230ml - 8854761174010.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-traicay-tl/thumbs/phoca_thumb_l_15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-traicay-tl/thumbs/phoca_thumb_l_16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-traicay-tl/thumbs/phoca_thumb_l_17.nc chaba me thi 230ml - 8854761274314.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-traicay-tl/thumbs/phoca_thumb_l_18.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-traicay-tl/thumbs/phoca_thumb_l_19.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-traicay-tl/thumbs/phoca_thumb_l_2.nc chaba sa chui thi 230ml - 8854761394319.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-traicay-tl/thumbs/phoca_thumb_l_20.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-traicay-tl/thumbs/phoca_thumb_l_21.nc chaba da li thi 230ml - 8854761304011.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-traicay-tl/thumbs/phoca_thumb_l_22.nc chaba da li thi 230ml - 8854761304011.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-traicay-tl/thumbs/phoca_thumb_l_3.nc chaba i thi 230ml - 8854761994229.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-traicay-tl/thumbs/phoca_thumb_l_4.nc chaba i thi 230ml - 8854761994229.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-traicay-tl/thumbs/phoca_thumb_l_5.nc chaba hnh nhn thi 230ml - 8854761994205.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-traicay-tl/thumbs/phoca_thumb_l_6.nc chaba hnh nhn thi 230ml - 8854761994205.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-traicay-tl/thumbs/phoca_thumb_l_7.nc chaba da non thi 230ml - 8854761184019.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-traicay-tl/thumbs/phoca_thumb_l_8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-traicay-tl/thumbs/phoca_thumb_l_9.nc chaba sa du thi 230ml - 8854761294312.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-traicay-tl/thumbs/phoca_thumb_m_1.nc chaba sa chui thi 230ml - 8854761394319.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-traicay-tl/thumbs/phoca_thumb_m_10.nc chaba sa du thi 230ml - 8854761294312.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-traicay-tl/thumbs/phoca_thumb_m_11.nc chaba nho nha am thi 230ml - 8854761364312.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-traicay-tl/thumbs/phoca_thumb_m_12.nc chaba nho nha am thi 230ml - 8854761364312.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-traicay-tl/thumbs/phoca_thumb_m_13.nc chaba xoi thi 230ml - 8854761174010.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-traicay-tl/thumbs/phoca_thumb_m_14.nc chaba xoi thi 230ml - 8854761174010.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-traicay-tl/thumbs/phoca_thumb_m_15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-traicay-tl/thumbs/phoca_thumb_m_16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-traicay-tl/thumbs/phoca_thumb_m_17.nc chaba me thi 230ml - 8854761274314.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-traicay-tl/thumbs/phoca_thumb_m_18.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-traicay-tl/thumbs/phoca_thumb_m_19.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-traicay-tl/thumbs/phoca_thumb_m_2.nc chaba sa chui thi 230ml - 8854761394319.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-traicay-tl/thumbs/phoca_thumb_m_20.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-traicay-tl/thumbs/phoca_thumb_m_21.nc chaba da li thi 230ml - 8854761304011.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-traicay-tl/thumbs/phoca_thumb_m_22.nc chaba da li thi 230ml - 8854761304011.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-traicay-tl/thumbs/phoca_thumb_m_3.nc chaba i thi 230ml - 8854761994229.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-traicay-tl/thumbs/phoca_thumb_m_4.nc chaba i thi 230ml - 8854761994229.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-traicay-tl/thumbs/phoca_thumb_m_5.nc chaba hnh nhn thi 230ml - 8854761994205.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-traicay-tl/thumbs/phoca_thumb_m_6.nc chaba hnh nhn thi 230ml - 8854761994205.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-traicay-tl/thumbs/phoca_thumb_m_7.nc chaba da non thi 230ml - 8854761184019.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-traicay-tl/thumbs/phoca_thumb_m_8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-traicay-tl/thumbs/phoca_thumb_m_9.nc chaba sa du thi 230ml - 8854761294312.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-traicay-tl/thumbs/phoca_thumb_s_1.nc chaba sa chui thi 230ml - 8854761394319.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-traicay-tl/thumbs/phoca_thumb_s_10.nc chaba sa du thi 230ml - 8854761294312.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-traicay-tl/thumbs/phoca_thumb_s_11.nc chaba nho nha am thi 230ml - 8854761364312.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-traicay-tl/thumbs/phoca_thumb_s_12.nc chaba nho nha am thi 230ml - 8854761364312.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-traicay-tl/thumbs/phoca_thumb_s_13.nc chaba xoi thi 230ml - 8854761174010.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-traicay-tl/thumbs/phoca_thumb_s_14.nc chaba xoi thi 230ml - 8854761174010.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-traicay-tl/thumbs/phoca_thumb_s_15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-traicay-tl/thumbs/phoca_thumb_s_16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-traicay-tl/thumbs/phoca_thumb_s_17.nc chaba me thi 230ml - 8854761274314.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-traicay-tl/thumbs/phoca_thumb_s_18.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-traicay-tl/thumbs/phoca_thumb_s_19.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-traicay-tl/thumbs/phoca_thumb_s_2.nc chaba sa chui thi 230ml - 8854761394319.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-traicay-tl/thumbs/phoca_thumb_s_20.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-traicay-tl/thumbs/phoca_thumb_s_21.nc chaba da li thi 230ml - 8854761304011.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-traicay-tl/thumbs/phoca_thumb_s_22.nc chaba da li thi 230ml - 8854761304011.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-traicay-tl/thumbs/phoca_thumb_s_3.nc chaba i thi 230ml - 8854761994229.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-traicay-tl/thumbs/phoca_thumb_s_4.nc chaba i thi 230ml - 8854761994229.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-traicay-tl/thumbs/phoca_thumb_s_5.nc chaba hnh nhn thi 230ml - 8854761994205.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-traicay-tl/thumbs/phoca_thumb_s_6.nc chaba hnh nhn thi 230ml - 8854761994205.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-traicay-tl/thumbs/phoca_thumb_s_7.nc chaba da non thi 230ml - 8854761184019.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-traicay-tl/thumbs/phoca_thumb_s_8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/nuoc-traicay-tl/thumbs/phoca_thumb_s_9.nc chaba sa du thi 230ml - 8854761294312.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/rongbien-hq/1. rong bin lc 3 chonwon 5gx3 - 8801299000021.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/rongbien-hq/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/rongbien-hq/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/rongbien-hq/thumbs/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/rongbien-hq/thumbs/phoca_thumb_l_1. rong bin lc 3 chonwon 5gx3 - 8801299000021.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/rongbien-hq/thumbs/phoca_thumb_l_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/rongbien-hq/thumbs/phoca_thumb_m_1. rong bin lc 3 chonwon 5gx3 - 8801299000021.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/rongbien-hq/thumbs/phoca_thumb_m_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/rongbien-hq/thumbs/phoca_thumb_s_1. rong bin lc 3 chonwon 5gx3 - 8801299000021.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phocagallery/rongbien-hq/thumbs/phoca_thumb_s_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phusi1.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/com_products/views/product/tmpl/default.php" beforeDir="false" afterPath="$PROJECT_DIR$/components/com_products/views/product/tmpl/default.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/com_products/views/products/tmpl/default.php" beforeDir="false" afterPath="$PROJECT_DIR$/components/com_products/views/products/tmpl/default.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/com_products/views/products/tmpl/default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/components/com_products/views/products/tmpl/default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuration.php" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/Util.php" beforeDir="false" afterPath="$PROJECT_DIR$/libraries/util.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/os-basetemplate/html/com_content/featured/default.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/os-basetemplate/html/com_content/featured/default.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/os-basetemplate/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/os-basetemplate/index.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -73,23 +308,39 @@
     <session id="-662650477">
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="php" value="33" />
+          <entry key="css" value="2" />
+          <entry key="html" value="1" />
+          <entry key="js" value="1" />
+          <entry key="php" value="63" />
+          <entry key="xml" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PHP" value="33" />
+          <entry key="CSS" value="2" />
+          <entry key="HTML" value="1" />
+          <entry key="JavaScript" value="1" />
+          <entry key="PHP" value="63" />
+          <entry key="XML" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="php" value="1660" />
+          <entry key="css" value="33" />
+          <entry key="html" value="4" />
+          <entry key="js" value="43" />
+          <entry key="php" value="4389" />
+          <entry key="xml" value="105" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PHP" value="1650" />
-          <entry key="SQL" value="10" />
+          <entry key="CSS" value="33" />
+          <entry key="HTML" value="4" />
+          <entry key="JavaScript" value="43" />
+          <entry key="PHP" value="4375" />
+          <entry key="SQL" value="14" />
+          <entry key="XML" value="105" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.lifecycle.project">
@@ -112,32 +363,85 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/components/com_products/views/products/tmpl/default.php">
+        <entry file="file://$PROJECT_DIR$/libraries/util.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-7839">
-              <caret line="22" column="31" lean-forward="true" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
+            <state relative-caret-position="345">
+              <caret line="144" column="48" lean-forward="true" selection-start-line="144" selection-start-column="48" selection-end-line="144" selection-end-column="48" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Downloads/KENT/TEMPLATES_WEB/web 3/single.html">
+        <entry file="file://$PROJECT_DIR$/components/com_products/views/products/tmpl/default.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="431">
-              <caret line="154" column="38" lean-forward="true" selection-start-line="154" selection-start-column="38" selection-end-line="154" selection-end-column="38" />
+            <state relative-caret-position="69">
+              <caret line="3" column="31" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="155">
+              <caret line="3201" column="1" lean-forward="true" selection-start-line="3201" selection-start-column="1" selection-end-line="3201" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/os-basetemplate/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4725">
-              <caret line="315" column="32" selection-start-line="315" selection-start-column="32" selection-end-line="315" selection-end-column="32" />
+            <state relative-caret-position="437">
+              <caret line="46" column="16" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/administrator/components/com_phocagallery/libraries/phocagallery/file/filethumbnail.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="570">
+              <caret line="91" column="8" lean-forward="true" selection-start-line="91" selection-start-column="8" selection-end-line="91" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/administrator/components/com_phocagallery/views/phocagallerycoimgs/tmpl/default.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="293">
+              <caret line="105" lean-forward="true" selection-start-line="105" selection-end-line="105" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/os-basetemplate/html/com_content/featured/default.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="293">
+              <caret line="90" column="98" selection-start-line="90" selection-start-column="98" selection-end-line="90" selection-end-column="98" />
               <folding>
-                <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
-                <element signature="e#16769#16775#0#HTML" expanded="true" />
+                <element signature="e#6#244#0#PHP" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/beez3/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="218">
+              <caret line="152" column="38" selection-start-line="152" selection-start-column="38" selection-end-line="152" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/beez3/html/mod_login/default_logout.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="206">
+              <caret line="26" column="78" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="78" />
             </state>
           </provider>
         </entry>
@@ -146,18 +450,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>movetop</find>
-      <find>move</find>
-      <find>jquery</find>
-      <find>trap</find>
-      <find>cust</find>
-      <find>jQuerOs</find>
-      <find>loader</find>
-      <find>$(window).on('load',</find>
-      <find>.innc</find>
-      <find>componen</find>
-      <find>move-top</find>
-      <find>video</find>
       <find>cart</find>
       <find>img-head</find>
       <find>kic-top</find>
@@ -168,14 +460,26 @@
       <find>mycard</find>
       <find>footer</find>
       <find>Moong</find>
-      <find>special</find>
       <find>getAllProducts</find>
       <find>lorem</find>
-      <find>banner-top</find>
       <find>cartIconBottom</find>
       <find>mycarr</find>
       <find>joom</find>
       <find>zoom</find>
+      <find>&lt;div class=&quot;single&quot;&gt;</find>
+      <find>starboxx</find>
+      <find>special</find>
+      <find>banner-top</find>
+      <find>lít</find>
+      <find>list</find>
+      <find>COM_MENUS_PARAMS_FIELDSET_LABEL</find>
+      <find>COM_PRODUCTS_DEFAULT_PAGE_TITLE</find>
+      <find>0, 20</find>
+      <find>PhocaGalleryFileThumbnail</find>
+      <find>jroo</find>
+      <find>jRoute</find>
+      <find>$obj_product['product_title']</find>
+      <find>id_category</find>
     </findStrings>
     <replaceStrings>
       <replace>template</replace>
@@ -189,10 +493,16 @@
       <dir>D:\ROOT\thucphamphusi\administrator</dir>
       <dir>$PROJECT_DIR$</dir>
       <dir>$PROJECT_DIR$/templates/os-basetemplate</dir>
+      <dir>D:\ROOT\thucphamphusi</dir>
+      <dir>D:\ROOT\thucphamphusi\templates\beez3</dir>
+      <dir>D:\ROOT\thucphamphusi\templates\os-basetemplate</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///Dummy.txt" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -226,20 +536,25 @@
         <option value="$PROJECT_DIR$/administrator/components/com_phocagallery/views/phocagalleryimg/tmpl/edit.php" />
         <option value="$PROJECT_DIR$/components/com_phocagallery/views/detail/tmpl/default.php" />
         <option value="$PROJECT_DIR$/administrator/components/com_phocagallery/views/phocagalleryimgs/tmpl/default.php" />
-        <option value="$PROJECT_DIR$/configuration.php" />
         <option value="$PROJECT_DIR$/media/editors/tinymce/skins/lightgray/content.min.css" />
         <option value="$PROJECT_DIR$/templates/os-basetemplate/css/style.css" />
         <option value="$PROJECT_DIR$/libraries/vendor/joomla/filter/src/OutputFilter.php" />
         <option value="$PROJECT_DIR$/language/en-GB/en-GB.localise.php" />
         <option value="$PROJECT_DIR$/administrator/language/en-GB/en-GB.localise.php" />
         <option value="$PROJECT_DIR$/administrator/components/com_products/views/products/tmpl/default.xml" />
-        <option value="$PROJECT_DIR$/components/com_products/views/products/tmpl/default.xml" />
-        <option value="$PROJECT_DIR$/css/style.css" />
-        <option value="$PROJECT_DIR$/templates/os-basetemplate/html/com_content/featured/default.php" />
-        <option value="$PROJECT_DIR$/libraries/Util.php" />
         <option value="$USER_HOME$/Downloads/KENT/TEMPLATES_WEB/web 3/single.html" />
+        <option value="$PROJECT_DIR$/configuration.php" />
+        <option value="$PROJECT_DIR$/js/jquery.zoomtoo.js" />
+        <option value="$PROJECT_DIR$/../template_web/web 3/single.html" />
+        <option value="$PROJECT_DIR$/components/com_products/views/product/tmpl/default.php" />
+        <option value="$PROJECT_DIR$/libraries/Util.php" />
+        <option value="$PROJECT_DIR$/components/com_products/views/products/tmpl/default.xml" />
+        <option value="$PROJECT_DIR$/administrator/components/com_phocagallery/views/phocagallerycoimgs/tmpl/default.php" />
+        <option value="$PROJECT_DIR$/templates/os-basetemplate/html/com_content/featured/default.php" />
+        <option value="$PROJECT_DIR$/libraries/util.php" />
         <option value="$PROJECT_DIR$/components/com_products/views/products/tmpl/default.php" />
         <option value="$PROJECT_DIR$/templates/os-basetemplate/index.php" />
+        <option value="$PROJECT_DIR$/css/style.css" />
       </list>
     </option>
   </component>
@@ -253,9 +568,9 @@
   <component name="PhpServers">
     <servers />
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="22" />
-    <option name="width" value="1920" />
+    <option name="width" value="1876" />
     <option name="height" value="993" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -313,7 +628,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -324,12 +638,149 @@
             <path>
               <item name="thucphamphusi" type="b2602c69:ProjectViewProjectNode" />
               <item name="thucphamphusi" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="administrator" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="thucphamphusi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="thucphamphusi" type="462c0819:PsiDirectoryNode" />
+              <item name="administrator" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="thucphamphusi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="thucphamphusi" type="462c0819:PsiDirectoryNode" />
+              <item name="administrator" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="com_phocagallery" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="thucphamphusi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="thucphamphusi" type="462c0819:PsiDirectoryNode" />
+              <item name="administrator" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="com_phocagallery" type="462c0819:PsiDirectoryNode" />
+              <item name="libraries" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="thucphamphusi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="thucphamphusi" type="462c0819:PsiDirectoryNode" />
+              <item name="administrator" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="com_phocagallery" type="462c0819:PsiDirectoryNode" />
+              <item name="libraries" type="462c0819:PsiDirectoryNode" />
+              <item name="phocagallery" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="thucphamphusi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="thucphamphusi" type="462c0819:PsiDirectoryNode" />
+              <item name="administrator" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="com_phocagallery" type="462c0819:PsiDirectoryNode" />
+              <item name="libraries" type="462c0819:PsiDirectoryNode" />
+              <item name="phocagallery" type="462c0819:PsiDirectoryNode" />
+              <item name="file" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="thucphamphusi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="thucphamphusi" type="462c0819:PsiDirectoryNode" />
+              <item name="administrator" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="com_phocagallery" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="thucphamphusi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="thucphamphusi" type="462c0819:PsiDirectoryNode" />
+              <item name="administrator" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="com_phocagallery" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="phocagalleryimg" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="thucphamphusi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="thucphamphusi" type="462c0819:PsiDirectoryNode" />
+              <item name="administrator" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="com_phocagallery" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="phocagalleryimg" type="462c0819:PsiDirectoryNode" />
+              <item name="tmpl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="thucphamphusi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="thucphamphusi" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="thucphamphusi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="thucphamphusi" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="com_phocagallery" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="thucphamphusi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="thucphamphusi" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="com_phocagallery" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="thucphamphusi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="thucphamphusi" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="com_phocagallery" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="category" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="thucphamphusi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="thucphamphusi" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="com_phocagallery" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="category" type="462c0819:PsiDirectoryNode" />
+              <item name="tmpl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="thucphamphusi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="thucphamphusi" type="462c0819:PsiDirectoryNode" />
+              <item name="libraries" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="thucphamphusi" type="b2602c69:ProjectViewProjectNode" />
               <item name="thucphamphusi" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="thucphamphusi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="thucphamphusi" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="beez3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="thucphamphusi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="thucphamphusi" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="beez3" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="thucphamphusi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="thucphamphusi" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="beez3" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
+              <item name="com_content" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="thucphamphusi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="thucphamphusi" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="beez3" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
+              <item name="com_content" type="462c0819:PsiDirectoryNode" />
+              <item name="category" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="thucphamphusi" type="b2602c69:ProjectViewProjectNode" />
@@ -337,10 +788,35 @@
               <item name="templates" type="462c0819:PsiDirectoryNode" />
               <item name="os-basetemplate" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="thucphamphusi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="thucphamphusi" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="os-basetemplate" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="thucphamphusi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="thucphamphusi" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="os-basetemplate" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
+              <item name="com_content" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="thucphamphusi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="thucphamphusi" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="os-basetemplate" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
+              <item name="com_content" type="462c0819:PsiDirectoryNode" />
+              <item name="featured" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -352,13 +828,13 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/templates/os-basetemplate/html" />
-      <recent name="$PROJECT_DIR$/../imgs" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/templates/protostar/html/com_content" />
       <recent name="$PROJECT_DIR$/application/views/templates" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/templates/os-basetemplate/html" />
+      <recent name="$PROJECT_DIR$/../imgs" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -403,55 +879,34 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57801000" />
+    <option name="totallyTimeSpent" value="76733000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1920" height="993" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30191693" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29264393" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.31853497" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32963374" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" />
+      <window_info anchor="bottom" id="Command Line Tools Console" order="0" weight="0.32936078" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info active="true" anchor="bottom" id="Find" order="2" visible="true" weight="0.31852654" />
+      <window_info anchor="bottom" id="Run" order="3" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32936078" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" />
     </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30191693" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.31853497" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32963374" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -595,20 +1050,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/administrator/components/com_phocagallery/views/phocagalleryimg/tmpl/edit.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2622">
-          <caret line="114" selection-start-line="114" selection-end-line="114" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/administrator/components/com_phocagallery/libraries/phocagallery/file/file.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/components/com_phocagallery/views/detail/tmpl/default.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="460">
@@ -623,37 +1064,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/com_phocagallery/views/category/tmpl/default.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/components/com_phocagallery/views/category/tmpl/default_javaupload.php">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/com_phocagallery/views/category/tmpl/default_images.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5083">
-          <caret line="221" column="55" selection-start-line="221" selection-start-column="55" selection-end-line="221" selection-end-column="55" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/administrator/components/com_phocagallery/libraries/phocagallery/rate/rateimage.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3312">
           <caret line="144" column="8" selection-start-line="144" selection-start-column="8" selection-end-line="144" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/administrator/components/com_phocagallery/libraries/phocagallery/image/image.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1058">
-          <caret line="46" column="69" selection-start-line="46" selection-start-column="69" selection-end-line="46" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/administrator/components/com_phocagallery/libraries/phocagallery/file/filethumbnail.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -668,13 +1085,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44712">
           <caret line="1950" column="5" selection-start-line="1950" selection-start-column="5" selection-end-line="1950" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/administrator/components/com_phocagallery/views/phocagalleryimgs/tmpl/default.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2875">
-          <caret line="125" column="15" selection-start-line="125" selection-start-column="15" selection-end-line="125" selection-end-column="15" />
         </state>
       </provider>
     </entry>
@@ -741,24 +1151,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/administrator/components/com_phocagallery/models/fields/phocagallerycategory.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/administrator/components/com_phocagallery/views/phocagallerycs/tmpl/default.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1541">
           <caret line="67" column="24" selection-start-line="67" selection-start-column="24" selection-end-line="67" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/administrator/components/com_phocagallery/libraries/phocagallery/html/jgrid.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="966">
-          <caret line="50" column="34" selection-start-line="50" selection-start-column="34" selection-end-line="50" selection-end-column="34" />
         </state>
       </provider>
     </entry>
@@ -773,13 +1169,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="258">
           <caret line="397" column="40" selection-start-line="397" selection-start-column="40" selection-end-line="397" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libraries/Util.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="120" column="48" lean-forward="true" selection-start-line="120" selection-start-column="48" selection-end-line="120" selection-end-column="48" />
         </state>
       </provider>
     </entry>
@@ -799,8 +1188,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/libraries/vendor/joomla/filter/src/OutputFilter.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2208">
-          <caret line="102" column="31" selection-start-line="102" selection-start-column="31" selection-end-line="102" selection-end-column="31" />
+        <state relative-caret-position="-377">
+          <caret line="90" selection-start-line="90" selection-end-line="90" />
         </state>
       </provider>
     </entry>
@@ -818,48 +1207,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Joomla_3.8.12-Stable-Full_Package/libraries/vendor/joomla/filter/src/OutputFilter.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="214" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/configuration.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/KENT/TEMPLATES_WEB/web 3/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2645">
-          <caret line="115" column="64" selection-start-line="115" selection-start-column="64" selection-end-line="115" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/beez3/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3473">
-          <caret line="157" column="61" selection-start-line="156" selection-start-column="28" selection-end-line="157" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../Joomla_3.8.12-Stable-Full_Package/libraries/vendor/joomla/filter/src/OutputFilter.php" />
+    <entry file="file://$USER_HOME$/Downloads/KENT/TEMPLATES_WEB/web 3/index.html" />
     <entry file="file://$PROJECT_DIR$/templates/os-basetemplate/preloader/preloader_script.inc.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
           <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/os-basetemplate/html/com_content/featured/default.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1035">
-          <caret line="45" column="40" selection-start-line="45" selection-start-column="40" selection-end-line="45" selection-end-column="40" />
-          <folding>
-            <element signature="e#6#244#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -881,13 +1234,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
           <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/com_products/views/products/tmpl/default.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="16" column="49" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
         </state>
       </provider>
     </entry>
@@ -929,28 +1275,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7429">
-          <caret line="323" column="14" selection-start-line="323" selection-start-column="14" selection-end-line="323" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/KENT/TEMPLATES_WEB/web/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="55499">
-          <caret line="2446" column="1" selection-start-line="2175" selection-start-column="1" selection-end-line="2446" selection-end-column="1" />
-          <folding>
-            <element signature="e#42943#42969#0" />
-            <element signature="e#42976#43085#0" />
-            <element signature="e#43097#43196#0" />
-            <element signature="e#43255#43493#0" />
-            <element signature="e#43514#43554#0" />
-            <element signature="e#43574#43704#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Downloads/KENT/TEMPLATES_WEB/web/css/style.css" />
     <entry file="file://$PROJECT_DIR$/templates/os-basetemplate/development_style/footer.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2093">
@@ -969,41 +1294,241 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="43" selection-start-column="43" selection-end-column="43" />
-          <folding>
-            <element signature="e#1303#1386#2" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/libraries/src/Factory.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2576">
+        <state relative-caret-position="854">
           <caret line="130" column="27" selection-start-line="130" selection-start-column="27" selection-end-line="130" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Downloads/KENT/TEMPLATES_WEB/web 3/single.html">
+    <entry file="file://$USER_HOME$/Downloads/KENT/TEMPLATES_WEB/web 3/single.html" />
+    <entry file="file://$PROJECT_DIR$/js/jquery.zoomtoo.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="431">
-          <caret line="154" column="38" lean-forward="true" selection-start-line="154" selection-start-column="38" selection-end-line="154" selection-end-column="38" />
+        <state relative-caret-position="506">
+          <caret line="178" column="43" selection-start-line="178" selection-start-column="43" selection-end-line="178" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/beez3/html/com_content/category/default.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="24" column="62" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/com_phocagallery/views/category/tmpl/default.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/com_content/views/category/tmpl/default.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="137" column="26" selection-start-line="137" selection-start-column="22" selection-end-line="137" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/com_products/views/product/view.html.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="98" column="57" selection-start-line="98" selection-start-column="57" selection-end-line="98" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/com_products/views/productform/view.html.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="89" column="57" selection-start-line="89" selection-start-column="57" selection-end-line="89" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/com_products/views/products/view.html.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="123" column="5" selection-start-line="123" selection-start-column="5" selection-end-line="123" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/com_products/views/products/tmpl/default.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" column="41" lean-forward="true" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/com_products/views/product/tmpl/default.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-909">
+          <caret line="29" column="27" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../template_web/web 3/single.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="45" column="89" lean-forward="true" selection-start-line="45" selection-start-column="89" selection-end-line="45" selection-end-column="89" />
+          <folding>
+            <element signature="n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/administrator/components/com_phocagallery/models/fields/phocagallerycategory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/com_phocagallery/views/phocagallerylinkcats/tmpl/default.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1006">
+          <caret line="105" column="8" lean-forward="true" selection-start-line="105" selection-start-column="8" selection-end-line="105" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/com_phocagallery/views/info/tmpl/default.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/com_phocagallery/views/category/tmpl/default.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/com_phocagallery/views/category/tmpl/default_images.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5083">
+          <caret line="221" column="55" selection-start-line="221" selection-start-column="55" selection-end-line="221" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/administrator/components/com_phocagallery/views/phocagallerycoimg/tmpl/edit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1096" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/administrator/components/com_phocagallery/views/phocagalleryimgs/tmpl/default.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="161" column="35" selection-start-line="161" selection-start-column="35" selection-end-line="161" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/administrator/components/com_phocagallery/libraries/phocagallery/html/jgrid.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="18" column="42" lean-forward="true" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/administrator/components/com_phocagallery/views/phocagalleryimg/tmpl/edit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="114" column="40" lean-forward="true" selection-start-line="114" selection-start-column="40" selection-end-line="114" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/administrator/components/com_phocagallery/libraries/phocagallery/file/file.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2392">
+          <caret line="105" column="27" selection-start-line="105" selection-start-column="27" selection-end-line="105" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/administrator/components/com_phocagallery/libraries/phocagallery/image/image.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5365">
+          <caret line="46" column="61" selection-start-line="46" selection-start-column="61" selection-end-line="46" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/com_phocagallery/controllers/user.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/com_phocagallery/views/category/view.html.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4577">
+          <caret line="50" column="58" lean-forward="true" selection-start-line="50" selection-start-column="58" selection-end-line="50" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/configuration.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="22" column="40" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/administrator/components/com_phocagallery/libraries/phocagallery/file/filefolderlist.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="72" column="63" selection-start-line="72" selection-start-column="38" selection-end-line="72" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/administrator/components/com_phocagallery/libraries/phocagallery/file/filethumbnail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="91" column="8" lean-forward="true" selection-start-line="91" selection-start-column="8" selection-end-line="91" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/administrator/components/com_phocagallery/views/phocagallerycoimgs/tmpl/default.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="105" lean-forward="true" selection-start-line="105" selection-end-line="105" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/beez3/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="152" column="38" selection-start-line="152" selection-start-column="38" selection-end-line="152" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/beez3/html/mod_login/default_logout.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="26" column="78" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/os-basetemplate/html/com_content/featured/default.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="90" column="98" selection-start-line="90" selection-start-column="98" selection-end-line="90" selection-end-column="98" />
+          <folding>
+            <element signature="e#6#244#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/components/com_products/views/products/tmpl/default.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7839">
-          <caret line="22" column="31" lean-forward="true" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
+        <state relative-caret-position="69">
+          <caret line="3" column="31" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/os-basetemplate/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4725">
-          <caret line="315" column="32" selection-start-line="315" selection-start-column="32" selection-end-line="315" selection-end-column="32" />
-          <folding>
-            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
-            <element signature="e#16769#16775#0#HTML" expanded="true" />
-          </folding>
+        <state relative-caret-position="437">
+          <caret line="46" column="16" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libraries/util.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="144" column="48" lean-forward="true" selection-start-line="144" selection-start-column="48" selection-end-line="144" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="3201" column="1" lean-forward="true" selection-start-line="3201" selection-start-column="1" selection-end-line="3201" selection-end-column="1" />
         </state>
       </provider>
     </entry>

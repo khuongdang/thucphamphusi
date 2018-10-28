@@ -14,7 +14,7 @@ class JConfig {
 	public $dbtype = 'mysqli';
 	public $host = 'localhost';
 	public $user = 'root';
-	public $password = 'root';
+	public $password = '';
 	public $db = 'phusi1';
 	public $dbprefix = 'tpps_';
 	public $live_site = '';
@@ -42,7 +42,7 @@ class JConfig {
 	public $smtpport = '25';
 	public $caching = '0';
 	public $cache_handler = 'file';
-	public $cachetime = '15';
+	public $cachetime = '50';
 	public $cache_platformprefix = '0';
 	public $MetaDesc = '';
 	public $MetaKeys = '';

@@ -8,18 +8,24 @@
     <fields name="request">
         <fieldset
                 name="request"
-                addfieldpath="/administrator/components/com_realestate/models/fields"
+                addfieldpath="/administrator/components/com_products/models/fields"
         >
             <field
-                    name="id"
-                    type="marketlist"
-                    label="Select a Market"
-                    description="Select a Market"
+                    name="id_category"
+                    type="list"
+                    label="Chọn danh mục"
+                    description="Chọn một danh mục"
             >
-                <option value="0">All Markets</option>
+                <option value="0">Tất cả danh mục</option>
                 <option value="1">Bánh HQ</option>
                 <option value="2">Kẹo HQ</option>
                 <option value="3">Mì HQ</option>
+                <option value="4">Nước Gạo HQ</option>
+                <option value="5">Nước Ngọt HQ</option>
+                <option value="6">Nước Ngọt Thái Lan</option>
+                <option value="7">Nước Tăng Lực Thái Lan</option>
+                <option value="8">Nước Trái Cây Thái Lan</option>
+                <option value="9">Rong Biển HQ</option>
             </field>
         </fieldset>
     </fields>

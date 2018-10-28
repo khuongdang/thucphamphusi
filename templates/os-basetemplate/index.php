@@ -7,13 +7,12 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Big store a Ecommerce Online Shopping Category Flat Bootstrap Responsive Website Template| Home :: w3layouts</title>
+    <title>Nhà phân phối thực phẩm Phú Sĩ</title>
     <!-- for-mobile-apps -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta property="og:title" content="Vide" />
-    <meta name="keywords" content="Big store Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template,
-Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+    <meta name="keywords" content="Nhà phân phối, thực phẩm hàn quốc, thực phẩm, nước uống, nước tăng lực, mì, rong biển, các lại sản phẩm hàn quốc" />
     <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
         function hideURLbar(){ window.scrollTo(0,1); } </script>
     <!-- //for-mobile-apps -->
@@ -38,38 +37,15 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     <link href="css/font-awesome.css" rel="stylesheet">
     <link href='//fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
     <link href='//fonts.googleapis.com/css?family=Noto+Sans:400,700' rel='stylesheet' type='text/css'>
-    <!--- start-rate---->
-    <script src="js/jstarbox.js"></script>
-    <link rel="stylesheet" href="css/jstarbox.css" type="text/css" media="screen" charset="utf-8" />
-    <script type="text/javascript">
-        jQuery(function() {
-            jQuery('.starbox').each(function() {
-                var starbox = jQuery(this);
-                starbox.starbox({
-                    average: starbox.attr('data-start-value'),
-                    changeable: starbox.hasClass('unchangeable') ? false : starbox.hasClass('clickonce') ? 'once' : true,
-                    ghosting: starbox.hasClass('ghosting'),
-                    autoUpdateAverage: starbox.hasClass('autoupdate'),
-                    buttons: starbox.hasClass('smooth') ? false : starbox.attr('data-button-count') || 5,
-                    stars: starbox.attr('data-star-count') || 5
-                }).bind('starbox-value-changed', function(event, value) {
-                    if(starbox.hasClass('random')) {
-                        var val = Math.random();
-                        starbox.next().text(' '+val);
-                        return val;
-                    }
-                })
-            });
-        });
-    </script>
-    <!---//End-rate---->
 
 </head>
 <body>
 <div class="header">
     <div class="container">
         <div class="logo">
-            <img src="images/logo5.png"/>
+            <a href="<?php echo JUri::base();?>">
+                <img src="images/logo5.png"/>
+            </a>
         </div>
         <div class="nav-top">
             <nav class="navbar navbar-default">
@@ -87,9 +63,19 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                 <div class="collapse navbar-collapse" id="bs-megadropdown-tabs">
                     <ul class="nav navbar-nav ">
                         <?php foreach ($all_menu_items as $menu) {
+                            $class = '';
+                            $menu_query = $menu->query;
+                            if (!empty($menu_query['id_category'])) {
+                                if ($menu_query['id_category'] == JRequest::getVar('id_category')) {
+                                    $class = 'class="active"';
+                                }
+                            }
+                            if ($menu_query['view'] == 'featured' && empty(JRequest::getVar('id_category'))) {
+                                $class = 'class="active"';
+                            }
                             $link = JRoute::_($menu->link);
                             ?>
-                            <li><a  href="<?php echo $link;?>" class="hyper "><span><?php echo $menu->title; ?></span></a></li>
+                            <li <?php echo $class;?>><a  href="<?php echo $link;?>" class="hyper "><span><?php echo $menu->title; ?></span></a></li>
                         <?php } ?>
                         <!--<li  class="dropdown active">
                             <a href="#" class="dropdown-toggle  hyper" data-toggle="dropdown" ><span>Kitchen<b class="caret"></b></span></a>
@@ -229,9 +215,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     </div>
 </div>
 <!---->
-
-<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.1.min.js"><\/script>')</script>
-<script src="js/jquery.vide.min.js"></script>
 </div>
 
 <!-- Carousel

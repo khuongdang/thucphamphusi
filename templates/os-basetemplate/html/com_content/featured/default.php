@@ -19,13 +19,14 @@ $hot_categories = Util::getHotCategories();
         <?php
         foreach ($hot_categories as $obj) {
             $file_name = Util::getFileOriginal($obj['product_info']['filename'], 1);
+            $link = JRoute::_('index.php?option=com_products&view=products&id_category=' . $obj['id']);
             ?>
             <div class="col-md-4 kic-top1">
-                <a href="">
+                <a href="<?php echo $link;?>">
                     <img src="<?php echo $file_name; ?>" class="img-responsive" alt="">
                 </a>
-                <h6>Dal</h6>
-                <p>Nam libero tempore</p>
+                <h6><?php echo $obj['title'];?></h6>
+                <p>Sản phẩm chỉ có tại nhaphanphoiphusi.com</p>
             </div>
         <?php } ?>
     </div>
@@ -55,7 +56,7 @@ $hot_categories = Util::getHotCategories();
                             </a>
                             <div class="mid-1">
                                 <div class="women">
-                                    <h6><a href="single.html"><?php echo $obj_product['title']; ?></a></h6>
+                                    <h6><?php echo Util::formatProductTitle($obj_product['product_title']); ?></h6>
                                 </div>
                             </div>
                         </div>
@@ -87,7 +88,7 @@ if (!empty($all_products)) {
                             </div>
                         </div>
                         <div class="col-md-7 span-1 ">
-                            <h3><?php echo $obj_product['title']; ?></h3>
+                            <h3><?php echo Util::formatProductTitle($obj_product['product_title']); ?></h3>
                             <p class="in-para"> Sản phẩm chỉ có duy nhất tại nhaphanphoiphusi.com</p>
 
                             <h4 class="quick">Chi tiết sản phẩm:</h4>

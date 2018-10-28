@@ -1005,7 +1005,7 @@ ul.product-qty {
 }
 /*--content-mid--*/
 .product {
-    padding:8em 0 6em;
+    padding:4em 0 6em;
 }
 .pro-1 {
     margin-bottom: 2em;
@@ -3191,9 +3191,11 @@ element.style {
 .offer-img img {
     margin: 0 auto;
     width: 55%;
+    box-shadow: 8px 8px 10px #aaa;
 }
 .img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img {
     min-height: 128px;
+    box-shadow: 8px 8px 10px #aaa;
 }
 .women h6 {
     text-align: center;
@@ -3209,4 +3211,7 @@ element.style {
     color:coral;
     font-size: 22px;
     margin-left: 5px;
+}
+.modal-dialog {
+    padding-top: 10%;
 }

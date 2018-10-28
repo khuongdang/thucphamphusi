@@ -9,18 +9,22 @@ class Util {
      * @param int $rel
      * @return mixed|string
      */
-    public static function getFileOriginal($filename, $rel = 0) {
+    public static function getFileOriginal($filename, $rel = 0)
+    {
         if (!class_exists('PhocaGalleryLoader')) {
             require_once(JPATH_ADMINISTRATOR . '/components/com_phocagallery/libraries/loader.php');
+            require_once(JPATH_ADMINISTRATOR . '/components/com_phocagallery/libraries/phocagallery/file/filethumbnail.php');
+
         }
         phocagalleryimport('phocagallery.image.image');
         phocagalleryimport('phocagallery.path.path');
-        $path	= PhocaGalleryPath::getPath();
-        $filename = str_replace(" ", '%20', $filename);
+        phocagalleryimport('phocagallery.file.file');
+        $thumb = PhocaGalleryFileThumbnail::getThumbnailName($filename, 'large');
         if ($rel == 1) {
-            return str_replace('//', '/', $path->image_rel . $filename);
+            $filename = str_replace(" ", '%20', $thumb->rel);
+            return $filename;
         } else {
-            return JPath::clean($path->image_abs . $filename);
+            return $thumb->abs;
         }
     }
     
@@ -36,11 +40,15 @@ class Util {
         $results = $db->loadAssocList();
 
         foreach($results as $index => $obj) {
-            $results[$index]['product_info'] = self::getProductFromCategory($obj['id'], 1);
+            $results[$index]['product_info'] = self::getProductsFromCategory($obj['id'], 1);
         }
         return $results;
     }
 
+    /**
+     * @param $limit
+     * @return mixed
+     */
     public static function getProductFromHotCategories($limit)
     {
         $db = JFactory::getDbo();
@@ -55,10 +63,13 @@ class Util {
      * @param $limit
      * @return mixed
      */
-    public static function getProductFromCategory($id_category, $limit)
+    public static function getProductsFromCategory($id_category, $limit)
     {
         if (empty($limit)) {
             $limit = self::DEFAULT_LIMIT;
+        }
+        if (empty($id_category)) {
+            return null;
         }
         $db = JFactory::getDbo();
         $query = "SELECT * FROM #__phocagallery AS p WHERE p.catid = $id_category ORDER BY RAND() LIMIT 0, $limit";
@@ -70,14 +81,24 @@ class Util {
         return $results;
     }
 
-
-    public static function getAllProducts($limit = self::MIN_LIMIT)
+    /**
+     * @param int $limit
+     * @return mixed
+     */
+    public static function getAllProducts($limit = self::MIN_LIMIT, $id_category = null)
     {
+        $show_category = "";
         if (empty($limit)) {
             $limit = self::DEFAULT_LIMIT;
         }
+        if (!empty($id_category)) {
+            $show_category = "WHERE c.id = $id_category";
+        }
         $db = JFactory::getDbo();
-        $query = "SELECT * FROM #__phocagallery AS p ORDER BY RAND() LIMIT 0, $limit";
+        $query = " SELECT *, p.title AS product_title, c.title AS cat_title ";
+        $query.= "FROM #__phocagallery AS p INNER JOIN  #__phocagallery_categories AS c ON c.id = p.`catid`";
+        $query.= " " . $show_category . " ORDER BY RAND() LIMIT 0, $limit";
+
         $db->setQuery($query);
         $results = $db->loadAssocList();
         if ($limit == self::MIN_LIMIT) {
@@ -85,7 +106,45 @@ class Util {
         }
         return $results;
     }
-    
+
+    /**
+     * @param $id_product
+     * @return mixed|null
+     */
+    public static function getProductInfo($id_product)
+    {
+        if (empty($id_product)) {
+            return null;
+        }
+        $db = JFactory::getDbo();
+        $query = "SELECT * FROM #__phocagallery AS p WHERE p.id = $id_product LIMIT 0,1";
+        $db->setQuery($query);
+        $results = $db->loadAssoc();
+        return $results;
+    }
+
+    /**
+     * @param $id_category
+     * @return mixed|null
+     */
+    public static function getCategoryInfo($id_category)
+    {
+        if (empty($id_category)) {
+            return null;
+        }
+        $db = JFactory::getDbo();
+        $query = "SELECT * FROM #__phocagallery_categories AS c WHERE c.id = $id_category LIMIT 0,1";
+        $db->setQuery($query);
+        $result = $db->loadAssoc();
+        return $result;
+    }
+
+    public static function formatProductTitle($title)
+    {
+        $title_explode = explode('-', $title);
+        $product_code = trim($title_explode[1]);
+        return $title_explode[0] . '<div style="padding-top:2px";>Mã SP: <span style="color:red; font-weight:bold;">' . $product_code . '</span></div>';
+    }
 
     /**
      * @return array|\Joomla\CMS\Menu\MenuItem[]
