@@ -143,7 +143,7 @@ class Util {
     {
         $title_explode = explode('-', $title);
         $product_code = trim($title_explode[1]);
-        return $title_explode[0] . '<div style="padding-top:2px";>Mã SP: <span style="color:red; font-weight:bold;">' . $product_code . '</span></div>';
+        return $title_explode[0] . '<div style="padding-top:2px;">Mã SP: <span style="color:red; font-weight:bold;">' . $product_code . '</span></div>';
     }
 
     /**

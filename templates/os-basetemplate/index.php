@@ -19,6 +19,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
     <!-- Custom Theme files -->
     <link href="css/style.css" rel='stylesheet' type='text/css' />
+    <link rel="icon" type="image/x-icon" href="images/ico.png">
     <!-- js -->
     <script src="js/jquery-1.11.1.min.js"></script>
     <!-- //js -->
@@ -30,6 +31,21 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             $(".scroll").click(function(event){
                 event.preventDefault();
                 $('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+            });
+            $('[data-ride="carousel"]').on("touchstart", function(event){
+                var xClick = event.originalEvent.touches[0].pageX;
+                $(this).one("touchmove", function(event){
+                    var xMove = event.originalEvent.touches[0].pageX;
+                    if( Math.floor(xClick - xMove) > 5 ){
+                        $(this).carousel('next');
+                    }
+                    else if( Math.floor(xClick - xMove) < -5 ){
+                        $(this).carousel('prev');
+                    }
+                });
+                $('[data-ride="carousel"]').on("touchend", function(){
+                    $(this).off("touchmove");
+                });
             });
         });
     </script>

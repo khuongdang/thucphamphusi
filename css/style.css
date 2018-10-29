@@ -114,7 +114,7 @@ img.img-head {
     text-decoration: none;
     color: black;
     width: auto;
-    overflow: hidden;
+    /*overflow: hidden;*/
     z-index: 2;
     transition: all .5s ease;
 }
@@ -363,7 +363,6 @@ ul.multi-column-dropdown {
 }
 
 nav.navbar.navbar-default {
-    height: 44px;
     background: #fe9126;
 }
 .cart{
@@ -385,7 +384,8 @@ nav.navbar.navbar-default {
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
     background-color:#FAB005;
-    color: #fff;
+    color: #555;
+    margin: 2px 0px 2px 0px;
 }
 .nav > li > a {
     padding: 12px 20px  !important;
@@ -2559,7 +2559,7 @@ span.last {
         margin: 2em auto;
     }
     .nav-top {
-        margin-bottom: 1em;
+        margin-bottom: 3px;
     }
     .tabs li {
         display: inline-block;
