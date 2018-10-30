@@ -631,7 +631,7 @@ ul.nav.tabs {
 /*----*/
 .mid-1 h6 {
     font-size: 1.2em;
-    min-height: 55px;
+    /*min-height: 55px;*/
 }
 .mid-1 h6 a {
     color: #000000;
@@ -666,9 +666,9 @@ ul.nav.tabs {
     text-align:center;
 }
 .col-m {
-    padding: 1em;
+    padding: 10px;
     border: 1px solid #B2B2B2;
-    min-height: 293px;
+    min-height: 315px;
 }
 .offer-img{
     position:relative;
@@ -3214,4 +3214,11 @@ element.style {
 }
 .modal-dialog {
     padding-top: 10%;
+}
+
+.product_code {
+    color:red; font-weight:bold;
+}
+.women {
+    min-height: 60px;
 }

@@ -51,7 +51,7 @@ class JConfig {
 	public $MetaVersion = '0';
 	public $robots = '';
 	public $sef = '1';
-	public $sef_rewrite = '0';
+	public $sef_rewrite = '1';
 	public $sef_suffix = '0';
 	public $unicodeslugs = '1';
 	public $feed_limit = '10';
@@ -83,7 +83,7 @@ class JConfig {
 	public $replyto = '';
 	public $replytoname = '';
 	public $MetaRights = '';
-	public $sitename_pagetitles = '0';
+	public $sitename_pagetitles = '1';
 	public $force_ssl = '0';
 	public $session_memcache_server_host = 'localhost';
 	public $session_memcache_server_port = '11211';
