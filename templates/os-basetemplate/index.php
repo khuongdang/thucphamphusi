@@ -1,9 +1,3 @@
-<!--
-Author: W3layouts
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
--->
 <!DOCTYPE html>
 <html>
 <head>
@@ -11,8 +5,13 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     <!-- for-mobile-apps -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta property="og:title" content="Vide" />
-    <meta name="keywords" content="Nhà phân phối, thực phẩm hàn quốc, thực phẩm, nước uống, nước tăng lực, mì, rong biển, các lại sản phẩm hàn quốc" />
+    <meta property="og:url"                content="http://nhaphanphoiphusi.com"/>
+    <meta property="og:type"               content="article" />
+    <meta property="og:title"              content="Nhà phân phối Phú Sĩ - Chuyên cung cấp sĩ lẻ các mặt hàng thực phẩm Hàn Quốc " />
+    <meta property="og:description"        content="Hãy đến ngay với Phú Sĩ Store. Chúng tôi luôn đáp ứng nhu cầu của bạn" />
+    <meta property="og:image"              content="http://nhaphanphoiphusi.com/images/phocagallery/banh-hq/thumbs/phoca_thumb_l_11.%20banh%20snack%20tom%20cay%20ns%20b8%2090g%20-%208801043036078.jpg" />
+    <meta name="description" content="Nhà phân phối, cung cấp thực phẩm Hàn Quốc, Thái Lan. Chuyên cung cấp sĩ lẻ các mặt hàng như Mì, Bánh, Nước tăng lưc, Nước gạo, Nước trái cây">
+    <meta name="keywords" content="Nhà phân phối, nhà phân phối Phú Sĩ, cửa hàng Phú Sĩ, cung cấp thực phẩm Hàn Quốc, thực phẩm Hàn Quốc, thực phẩm, nước uống, nước tăng lực, mì, rong biển, các lại sản phẩm Hàn Quốc, cung cấp sĩ lẻ, thực phẩm Thái Lan, cung cấp nước tăng lực Thái Lan" />
     <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
         function hideURLbar(){ window.scrollTo(0,1); } </script>
     <!-- //for-mobile-apps -->
@@ -53,9 +52,28 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     <link href="css/font-awesome.css" rel="stylesheet">
     <link href='//fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
     <link href='//fonts.googleapis.com/css?family=Noto+Sans:400,700' rel='stylesheet' type='text/css'>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+                new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-M3XNBCZ');</script>
+    <!-- End Google Tag Manager -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-128365232-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
 
+        gtag('config', 'UA-128365232-1');
+    </script>
 </head>
 <body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M3XNBCZ"
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 <div class="header">
     <div class="container">
         <div class="logo">
@@ -91,7 +109,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                             }
                             $link = JRoute::_($menu->link);
                             ?>
-                            <li <?php echo $class;?>><a  href="<?php echo $link;?>" class="hyper "><span><?php echo $menu->title; ?></span></a></li>
+                            <li <?php echo $class;?>><a title="<?php echo $menu->title; ?>" href="<?php echo $link;?>" class="hyper "><span><?php echo $menu->title; ?></span></a></li>
                         <?php } ?>
                         <!--<li  class="dropdown active">
                             <a href="#" class="dropdown-toggle  hyper" data-toggle="dropdown" ><span>Kitchen<b class="caret"></b></span></a>
@@ -268,11 +286,11 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             <p class="fo-para">Nhà Phân Phối Phú Sĩ tự hào là một trong những nhà phân phối thực phẩm Hàn Quốc hàng đầu
                 tại Việt Nam.</p>
             <ul class="social-fo">
-                <li><a href="#" class=" face"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                <li><a target="_blank" href="https://www.messenger.com/t/100003691540723" class=" face"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
             </ul>
             <div class=" address">
                 <div class="col-md-4 fo-grid1">
-                    <p><i class="fa fa-home" aria-hidden="true"></i>12K Street , 45 Building Road Canada.</p>
+                    <p><i class="fa fa-home" aria-hidden="true"></i>148 Thống Nhất, P. Tân Thành, Q. Tân Phú, HCM</p>
                 </div>
                 <div class="col-md-4 fo-grid1">
                     <p><i class="fa fa-phone" aria-hidden="true"></i>+84 903 825 315</p>

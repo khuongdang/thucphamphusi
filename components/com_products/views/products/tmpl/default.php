@@ -36,8 +36,8 @@ if (!empty($category_info)) {
                         ?>
                         <div class="col-md-3 pro-1">
                             <div class="col-m">
-                                <a href="#" data-toggle="modal" data-target="#myModal<?php echo $index;?>" class="offer-img">
-                                    <img src="<?php echo $file_name;?>" class="img-responsive" alt="">
+                                <a title="<?php echo $obj_product['product_title'];?>" href="#" data-toggle="modal" data-target="#myModal<?php echo $index;?>" class="offer-img">
+                                    <img src="<?php echo $file_name;?>" class="img-responsive" alt="<?php echo $obj_product['product_title'];?>">
                                 </a>
                                 <div class="mid-1">
                                     <div class="women">
@@ -69,7 +69,7 @@ if (!empty($category_info)) {
                         <div class="modal-body modal-spa">
                             <div class="col-md-5 span-2">
                                 <div class="item">
-                                    <img src="<?php echo $file_name;?>" class="img-responsive" alt="">
+                                    <img src="<?php echo $file_name;?>" class="img-responsive" alt="<?php echo $obj_product['product_title'];?>">
                                 </div>
                             </div>
                             <div class="col-md-7 span-1 ">

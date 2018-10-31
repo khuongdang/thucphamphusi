@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a656caa4-33c3-4582-9da1-e9e08649226c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/components/com_sef/sef_ext/com_products.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/com_products/router.php" beforeDir="false" afterPath="$PROJECT_DIR$/components/com_products/router.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configuration.php" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libraries/util.php" beforeDir="false" afterPath="$PROJECT_DIR$/libraries/util.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/com_products/views/products/tmpl/default.php" beforeDir="false" afterPath="$PROJECT_DIR$/components/com_products/views/products/tmpl/default.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/os-basetemplate/html/com_content/featured/default.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/os-basetemplate/html/com_content/featured/default.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/os-basetemplate/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/os-basetemplate/index.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,7 +34,7 @@
           <entry key="js" value="5" />
           <entry key="less" value="1" />
           <entry key="md" value="3" />
-          <entry key="php" value="110" />
+          <entry key="php" value="111" />
           <entry key="ts" value="1" />
           <entry key="txt" value="1" />
           <entry key="xml" value="3" />
@@ -51,7 +48,7 @@
           <entry key="JavaScript" value="5" />
           <entry key="Less" value="1" />
           <entry key="Markdown" value="3" />
-          <entry key="PHP" value="110" />
+          <entry key="PHP" value="111" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="TypeScript" value="1" />
           <entry key="XML" value="3" />
@@ -65,7 +62,7 @@
           <entry key="html" value="2" />
           <entry key="ini" value="35" />
           <entry key="js" value="11" />
-          <entry key="php" value="3344" />
+          <entry key="php" value="4080" />
           <entry key="xml" value="36" />
         </counts>
       </usages-collector>
@@ -75,7 +72,7 @@
           <entry key="HTML" value="2" />
           <entry key="Ini" value="35" />
           <entry key="JavaScript" value="11" />
-          <entry key="PHP" value="3344" />
+          <entry key="PHP" value="4080" />
           <entry key="XML" value="36" />
           <entry key="htaccess" value="23" />
         </counts>
@@ -195,11 +192,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/components/com_products/router.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="430">
-              <caret line="62" column="52" lean-forward="true" selection-start-line="62" selection-start-column="52" selection-end-line="62" selection-end-column="52" />
+            <state relative-caret-position="177">
+              <caret line="51" column="33" lean-forward="true" selection-start-line="51" selection-start-column="33" selection-end-line="51" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -237,8 +234,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/components/com_sef/joomsef.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="875">
-              <caret line="2146" column="71" selection-start-line="2146" selection-start-column="71" selection-end-line="2146" selection-end-column="71" />
+            <state relative-caret-position="86">
+              <caret line="2839" column="21" selection-start-line="2839" selection-start-column="21" selection-end-line="2839" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -319,11 +316,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/os-basetemplate/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1932">
-              <caret line="84" column="48" selection-start-line="84" selection-start-column="48" selection-end-line="84" selection-end-column="48" />
+            <state relative-caret-position="437">
+              <caret line="19" column="59" selection-start-line="19" selection-start-column="59" selection-end-line="19" selection-end-column="59" />
+              <folding>
+                <element signature="n#style#0;n#iframe#0;n#noscript#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -339,11 +339,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>&lt;div class=&quot;single&quot;&gt;</find>
-      <find>starboxx</find>
-      <find>special</find>
-      <find>banner-top</find>
-      <find>lít</find>
       <find>list</find>
       <find>COM_MENUS_PARAMS_FIELDSET_LABEL</find>
       <find>COM_PRODUCTS_DEFAULT_PAGE_TITLE</find>
@@ -369,6 +364,11 @@
       <find>component</find>
       <find>title</find>
       <find>extract($vars);</find>
+      <find>safe</find>
+      <find>http://www.artio';</find>
+      <find>$cacheBuf2</find>
+      <find>.html</find>
+      <find>description</find>
     </findStrings>
     <replaceStrings>
       <replace>template</replace>
@@ -440,15 +440,15 @@
         <option value="$PROJECT_DIR$/configuration.php" />
         <option value="$PROJECT_DIR$/js/jquery.mobile.js" />
         <option value="$PROJECT_DIR$/js/jquery.bcSwipe.js" />
-        <option value="$PROJECT_DIR$/templates/os-basetemplate/index.php" />
         <option value="$PROJECT_DIR$/css/bootstrap.css" />
         <option value="$PROJECT_DIR$/templates/os-basetemplate/html/com_content/featured/default.php" />
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/.htaccess" />
         <option value="$PROJECT_DIR$/libraries/util.php" />
         <option value="$PROJECT_DIR$/components/com_products/router.php" />
-        <option value="$PROJECT_DIR$/components/com_sef/joomsef.php" />
         <option value="$PROJECT_DIR$/components/com_sef/sef_ext/com_products.php" />
+        <option value="$PROJECT_DIR$/components/com_sef/joomsef.php" />
+        <option value="$PROJECT_DIR$/templates/os-basetemplate/index.php" />
       </list>
     </option>
   </component>
@@ -538,36 +538,6 @@
               <item name="thucphamphusi" type="b2602c69:ProjectViewProjectNode" />
               <item name="thucphamphusi" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="com_products" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="thucphamphusi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="thucphamphusi" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="com_products" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="thucphamphusi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="thucphamphusi" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="com_products" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="products" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="thucphamphusi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="thucphamphusi" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="com_products" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="products" type="462c0819:PsiDirectoryNode" />
-              <item name="tmpl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="thucphamphusi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="thucphamphusi" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="com_sef" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -643,23 +613,23 @@
       <workItem from="1540546066017" duration="1113000" />
       <workItem from="1540777446172" duration="581000" />
       <workItem from="1540779357306" duration="8519000" />
-      <workItem from="1540798953196" duration="7231000" />
+      <workItem from="1540798953196" duration="10470000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="93064000" />
+    <option name="totallyTimeSpent" value="96303000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1920" height="993" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30191693" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30191693" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Command Line Tools Console" order="0" weight="0.32936078" />
       <window_info anchor="bottom" id="Message" order="1" />
-      <window_info anchor="bottom" id="Find" order="2" visible="true" weight="0.31742507" />
+      <window_info active="true" anchor="bottom" id="Find" order="2" visible="true" weight="0.31742507" />
       <window_info anchor="bottom" id="Run" order="3" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
@@ -694,13 +664,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/administrator/components/com_phocagallery/models/forms/phocagalleryc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1495">
-          <caret line="65" column="13" selection-start-line="65" selection-start-column="13" selection-end-line="65" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/components/com_products/controller.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="322">
@@ -1222,13 +1185,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/os-basetemplate/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1932">
-          <caret line="84" column="48" selection-start-line="84" selection-start-column="48" selection-end-line="84" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/components/com_products/helpers/products.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1879" />
@@ -1291,27 +1247,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/com_sef/joomsef.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="875">
-          <caret line="2146" column="71" selection-start-line="2146" selection-start-column="71" selection-end-line="2146" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/components/com_sef/sef_ext/com_banners.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="246">
           <caret line="50" column="37" selection-start-line="50" selection-start-column="37" selection-end-line="50" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/com_sef/sef_ext/com_products.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="24" column="30" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
-          <folding>
-            <element signature="e#6#264#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1341,8 +1280,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/components/com_products/router.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="430">
-          <caret line="62" column="52" lean-forward="true" selection-start-line="62" selection-start-column="52" selection-end-line="62" selection-end-column="52" />
+        <state relative-caret-position="177">
+          <caret line="51" column="33" lean-forward="true" selection-start-line="51" selection-start-column="33" selection-end-line="51" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/com_sef/sef_ext/com_products.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="24" column="30" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
+          <folding>
+            <element signature="e#6#264#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/com_sef/sef.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="4" lean-forward="true" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/com_sef/joomsef.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="2839" column="21" selection-start-line="2839" selection-start-column="21" selection-end-line="2839" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/os-basetemplate/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="19" column="59" selection-start-line="19" selection-start-column="59" selection-end-line="19" selection-end-column="59" />
+          <folding>
+            <element signature="n#style#0;n#iframe#0;n#noscript#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

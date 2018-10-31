@@ -22,8 +22,8 @@ $hot_categories = Util::getHotCategories();
             $link = JRoute::_('index.php?option=com_products&view=products&id_category=' . $obj['id']);
             ?>
             <div class="col-md-4 kic-top1">
-                <a href="<?php echo $link;?>">
-                    <img src="<?php echo $file_name; ?>" class="img-responsive" alt="">
+                <a title="<?php echo $obj['title'];?>" href="<?php echo $link;?>">
+                    <img src="<?php echo $file_name; ?>" class="img-responsive" alt="<?php echo $obj['title'];?>">
                 </a>
                 <h6><?php echo $obj['title'];?></h6>
                 <p>Sản phẩm chỉ có tại nhaphanphoiphusi.com</p>
@@ -51,8 +51,8 @@ $hot_categories = Util::getHotCategories();
                     ?>
                     <div class="col-md-3 pro-1">
                         <div class="col-m">
-                            <a href="#" data-toggle="modal" data-target="#myModal<?php echo $index;?>" class="offer-img">
-                                <img src="<?php echo $file_name;?>" class="img-responsive" alt="">
+                            <a title="<?php echo $obj_product['product_title'];?>" href="#" data-toggle="modal" data-target="#myModal<?php echo $index;?>" class="offer-img">
+                                <img src="<?php echo $file_name;?>" class="img-responsive" alt="<?php echo $obj_product['product_title'];?>">
                             </a>
                             <div class="mid-1">
                                 <div class="women">
@@ -84,7 +84,7 @@ if (!empty($all_products)) {
                     <div class="modal-body modal-spa">
                         <div class="col-md-5 span-2">
                             <div class="item">
-                                <img src="<?php echo $file_name;?>" class="img-responsive" alt="">
+                                <img src="<?php echo $file_name;?>" class="img-responsive" alt="<?php echo $obj_product['product_title'];?>">
                             </div>
                         </div>
                         <div class="col-md-7 span-1 ">
