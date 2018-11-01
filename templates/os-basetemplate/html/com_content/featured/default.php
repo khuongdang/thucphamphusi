@@ -44,7 +44,7 @@ $hot_categories = Util::getHotCategories();
         </div>
         <div class=" con-w3l">
             <?php
-            $all_products = Util::getAllProducts(20);
+            $all_products = Util::getAllProducts(20, null, true);
             if (!empty($all_products)) {
                 foreach ($all_products as $index => $obj_product) {
                     $file_name = Util::getFileOriginal($obj_product['filename'], 1);

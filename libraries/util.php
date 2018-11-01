@@ -72,7 +72,7 @@ class Util {
             return null;
         }
         $db = JFactory::getDbo();
-        $query = "SELECT * FROM #__phocagallery AS p WHERE p.catid = $id_category ORDER BY RAND() LIMIT 0, $limit";
+        $query = "SELECT * FROM #__phocagallery AS p WHERE p.catid = $id_category ORDER BY p.title LIMIT 0, $limit";
         $db->setQuery($query);
         $results = $db->loadAssocList();
         if ($limit == self::MIN_LIMIT) {
@@ -85,7 +85,7 @@ class Util {
      * @param int $limit
      * @return mixed
      */
-    public static function getAllProducts($limit = self::MIN_LIMIT, $id_category = null)
+    public static function getAllProducts($limit = self::MIN_LIMIT, $id_category = null, $rand = false)
     {
         $show_category = "";
         if (empty($limit)) {
@@ -94,10 +94,14 @@ class Util {
         if (!empty($id_category)) {
             $show_category = "WHERE c.id = $id_category";
         }
+        $order_by = 'p.title';
+        if ($rand == true) {
+            $order_by = 'RAND()';
+        }
         $db = JFactory::getDbo();
         $query = " SELECT *, p.title AS product_title, c.title AS cat_title ";
         $query.= "FROM #__phocagallery AS p INNER JOIN  #__phocagallery_categories AS c ON c.id = p.`catid`";
-        $query.= " " . $show_category . " ORDER BY RAND() LIMIT 0, $limit";
+        $query.= " " . $show_category . " ORDER BY $order_by LIMIT 0, $limit";
 
         $db->setQuery($query);
         $results = $db->loadAssocList();
