@@ -56,8 +56,8 @@ class JConfig {
 	public $unicodeslugs = '1';
 	public $feed_limit = '10';
 	public $feed_email = 'none';
-	public $log_path = '/Volumes/WORK-SOFT/ROOT/thucphamphusi/administrator/logs';
-	public $tmp_path = '/Volumes/WORK-SOFT/ROOT/thucphamphusi/tmp';
+	public $log_path = '/Volumes/kendy/www/OLD/phusi/thucphamphusi/logs';
+	public $tmp_path = '/Volumes/kendy/www/OLD/phusi/thucphamphusi/tmp';
 	public $lifetime = '15';
 	public $session_handler = 'database';
 	public $shared_session = '0';

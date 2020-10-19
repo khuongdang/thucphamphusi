@@ -1,0 +1,161 @@
+.sqs-block-html .sqs-block-content *:not(h1):not(h2):not(h3) {
+    text-align: justify;
+}
+
+.image-subtitle {
+    text-align: justify;
+}
+
+body:not(.image-block-collage-dynamic-font-sizing) .sqs-block-image .design-layout-collage .image-subtitle p {
+    font-size: 16px;
+}
+
+.Mobile-bar-menu {
+    stroke: #545353;
+}
+
+.Mobile-bar--top {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#7abcff+0,60abf8+44,4096ee+100;Blue+3D+%2314 */
+    background: rgb(122, 188, 255); /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(122, 188, 255, 1) 0%, rgba(96, 171, 248, 1) 44%, rgba(64, 150, 238, 1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(122, 188, 255, 1) 0%, rgba(96, 171, 248, 1) 44%, rgba(64, 150, 238, 1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(122, 188, 255, 1) 0%, rgba(96, 171, 248, 1) 44%, rgba(64, 150, 238, 1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#7abcff', endColorstr='#4096ee', GradientType=0); /* IE6-9 */
+}
+
+.sqs-block-image .image-caption p {
+    font-weight: 300;
+    font-style: normal;
+    font-size: 23px;
+    letter-spacing: .02em;
+    line-height: 1.3em;
+    text-transform: none;
+}
+
+.sqs-block {
+    margin: 0;
+    padding: 0;
+}
+
+.Mobile-bar-branding-logo {
+    width: 120px;
+}
+
+@media only screen and (max-width: 640px) {
+
+    .sqs-block-image .design-layout-collage.sqs-narrow-width.image-position-right .intrinsic {
+        left: 5% !important;
+    }
+
+    .sqs-block-image .design-layout-collage .image-card {
+        padding: 6% !important;
+    }
+
+    .Index-page-content {
+        padding-top: 0px !important;
+    }
+
+    #block-faaed209b473b15671cc,
+    #block-22f4f52f0ead483b558e,
+    #block-548ff1330d0a85280d7a,
+    #block-198485541bc7bb351353,
+    #block-2db5cce8c94aa2568e81
+    {
+        width: 33px;
+        float: left;
+    }
+
+    #block-yui_3_17_2_1_1538703974337_96637,
+    #block-yui_3_17_2_1_1538703974337_123025,
+    #block-yui_3_17_2_1_1538703974337_59918,
+    #block-yui_3_17_2_1_1538703974337_157600,
+    #block-yui_3_17_2_1_1538703974337_170855 {
+        width: 33px;
+        float: left;
+    }
+
+    #block-3b644525c3235c3e34b6 .sqs-block-content h2, p {
+        margin: 0px !important;
+    }
+
+    .sqs-block:not(.sqs-block-html):not(.sqs-block-markdown) {
+        clear: none;
+    }
+
+    #block-yui_3_17_2_1_1538703974337_148623 {
+        margin-top: 25px;
+    }
+
+    #block-yui_3_17_2_1_1538703974337_28402 {
+        margin-top: -35px;
+    }
+
+    #block-yui_3_17_2_1_1538453175030_279534 {
+
+    .sqs-block-content {
+
+    }
+}
+
+#block-yui_3_17_2_1_1538453175030_230879 {
+    .sqs-dynamic-text-container {
+        margin-right: -38px;
+    }
+}
+h3 {
+    font-size: 15px;
+}
+
+.sqs-block-content p.block1 {
+    font-size: 15px !important;
+}
+
+}
+#block-yui_3_17_2_1_1541562561078_13956 {
+    width: 100vw;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    margin-top: -25px;
+}
+
+#collection-5ba34532575d1fbc075be4e1, #collection-5be296da8985836d62e6c1b7 .Header--bottom {
+    position: absolute;
+    width: 100%;
+    z-index: 1000;
+}
+
+#header {
+    background: red;
+}
+
+.sqs-gallery-block-slideshow .sqs-gallery,
+.sqs-gallery-block-slideshow .sqs-gallery .slide img {
+    background-size: cover;
+    min-height: 885px;
+}
+
+#block-74ba344e4432a0ae7b03,
+#block-3b644525c3235c3e34b6,
+#block-7dc0caa0ad7892709df3,
+#block-cabfa4093646d0184b56,
+#block-9bc31c68108fa5a90e9a,
+#block-f3153eaf28ee9db04610, #block-c9cb03f3e2d43877a9ed {
+    .sqs-block-content h2 {
+        font-weight: 300;
+        font-style: normal;
+        font-size: 28px;
+        letter-spacing: .02em;
+        line-height: 1.3em;
+        text-transform: none;
+    }
+}
+
+.sqs-gallery-block-slideshow .meta .meta-title {
+    font-size: 48px;
+}
+
+.sqs-gallery-block-slideshow.sqs-gallery-block-meta-position-center .meta {
+    top: 65%;
+    left: 25%;
+}
